@@ -4,6 +4,13 @@
 #include <stdlib.h>
 
 int main (int argc, char** argv) {
+
+  // Checking command line input
+  if (argc < 2) {
+    printf("USAGE: %s seed\n", argv[0]);
+    exit(1);
+  }
+
   struct gameState G;
   int k[10] = {adventurer, gardens, embargo, village, minion, mine, cutpurse,
            sea_hag, tribute, smithy};
