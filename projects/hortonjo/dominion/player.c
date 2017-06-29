@@ -30,7 +30,13 @@ int main2(int argc, char *argv[]) {
 }
 
 int main(int argc, char* argv[]) {
-		char *add  = "add";
+	// First step in proper usage test
+	if(argc != 2){
+		printf("Usage: player [integer random number seed]\n");
+		return EXIT_SUCCESS;
+	}
+	
+	char *add  = "add";
 	char *buyC = "buy";
 	char *endT = "end";
 	char *exit = "exit";
@@ -69,11 +75,7 @@ int main(int argc, char* argv[]) {
 
 	memset(game,0,sizeof(struct gameState));
 		
-	if(argc != 2){
-		printf("Usage: player [integer random number seed]\n");
-		return EXIT_SUCCESS;
-	}
-
+	// Second step in proper usage test
 	if(randomSeed <= 0){
 		printf("Usage: player [integer random number seed]\n");
 		return EXIT_SUCCESS;
