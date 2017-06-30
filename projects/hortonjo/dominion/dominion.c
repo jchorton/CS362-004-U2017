@@ -653,7 +653,7 @@ int actionSmithy(struct gameState *state, int handPos) {
 	int currentPlayer = whoseTurn(state);
 
 	//+3 Cards
-	for (i = 0; i < 3; i++)
+	for (i = 0; i <= 3; i++)
 	{
 		drawCard(currentPlayer, state);
 	}
@@ -677,7 +677,7 @@ int actionAdventurer(struct gameState *state, int handPos) {
 		}
 		drawCard(currentPlayer, state);
 		cardDrawn = state->hand[currentPlayer][state->handCount[currentPlayer] - 1];//top card of hand is most recently drawn card.
-		if (cardDrawn == copper || cardDrawn == silver || cardDrawn == gold)
+		if (cardDrawn == silver || cardDrawn == gold)
 			drawnTreasure++;
 		else{
 			tempHand[z] = cardDrawn;
@@ -710,10 +710,7 @@ int actionCouncilRoom(struct gameState *state, int handPos) {
       	//Each other player draws a card
       	for (i = 0; i < state->numPlayers; i++)
 	{
-	  	if ( i != currentPlayer )
-	    	{
-	      		drawCard(i, state);
-	    	}
+	    	drawCard(i, state);
 	}
 			
       	//put played card in played card pile
@@ -723,7 +720,8 @@ int actionCouncilRoom(struct gameState *state, int handPos) {
 }
 
 int actionFeast(struct gameState *state, int handPos, int choice1) {
- 	int i, x;
+ 	int i = 0;
+	int x = 0;
 	int currentPlayer = whoseTurn(state);
 	int tempHand[MAX_HAND];
 	
@@ -737,7 +735,6 @@ int actionFeast(struct gameState *state, int handPos, int choice1) {
 
       	//Update Coins for Buy
       	updateCoins(currentPlayer, state, 5);
-      	x = 1;//Condition to loop on
       	while( x == 1) {//Buy one card
 		if (supplyCount(choice1, state) <= 0){
 	  		if (DEBUG)
