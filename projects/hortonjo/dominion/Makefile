@@ -3,6 +3,9 @@ CFLAGS = -Wall -fpic -coverage -lm
 rngs.o: rngs.h rngs.c
 	gcc -c rngs.c -g  $(CFLAGS)
 
+assertTrue.o: assertTrue.h assertTrue.c
+	gcc -c assertTrue.c -g $(CFLAGS)
+
 dominion.o: dominion.h dominion.c rngs.o
 	gcc -c dominion.c -g  $(CFLAGS)
 
@@ -24,8 +27,8 @@ testAll: dominion.o testSuite.c
 interface.o: interface.h interface.c
 	gcc -c interface.c -g  $(CFLAGS)
 
-unitTest1: unitTest1.c dominion.o rngs.o
-	gcc -o unitTest1 -g unitTest1.c dominion.o rngs.o $(CFLAGS)
+unitTest1: unitTest1.c dominion.o rngs.o assertTrue.o
+	gcc -o unitTest1 -g unitTest1.c dominion.o rngs.o assertTrue.o $(CFLAGS)
 
 runtests: testDrawCard 
 	./testDrawCard &> unittestresult.out

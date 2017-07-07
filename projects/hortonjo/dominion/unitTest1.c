@@ -12,37 +12,10 @@
 #include <stdlib.h>
 #include <assert.h>
 #include "rngs.h"
+#include "assertTrue.h"
 
 #define DEBUG 0
 #define NOISY_TEST 1
-
-
-/*
- *	assertTrue
- * This is a customized assert function that will allow the program
- * to keep running when tests fail. This is for using gcov analysis.
- * A label may be sent along with a command to exit if desired.
- */
-int assertTrue(int testBool, char *label, int exitBool) {
-
-	// Prints results of tests
-	if (testBool)
-		printf("PASS");
-	else
-		printf("FAIL");
-	printf(" : %s", label);
-	printf("\n");
-
-	// Exit program if desired
-	if (!testBool && exitBool) {
-		printf("Terminating Program!\n");
-		exit(1);
-	}
-	
-	return testBool;
-}
-
-
 
 /*
  *	main
@@ -55,16 +28,14 @@ int main () {
 
 	struct gameState G;
 	
-	// initializeGame(int numPlayers, int kingdomCards[10], int randomSeed, struct gameState *state)
-	initializeGame(4, k, 1, &G);
+	// int initializeGame(int numPlayers, int kingdomCards[10], int randomSeed, struct gameState *state);
+	int r;
+	r = initializeGame(4, k, 1, &G);
 
-	//printf ("initializeGame(4, k, 1, &G) = %d\n", r);
-	//assertTrue(r == 0, "Initilization of game", 0);
-
+	printf ("initializeGame(4, k, 1, &G) = %d\n", r);
 	
-
-
-
+	// int asserTrue(int testBool, char *label, int exitBool);
+	assertTrue(r == 0, "Initilization of game", 0);
 
 
 	return 0;
