@@ -672,16 +672,22 @@ int actionAdventurer(struct gameState *state, int handPos) {
 	int z = 0;// this is the counter for the temp hand
 
 	while(drawnTreasure < 2){
-		if (state->deckCount[currentPlayer] < 1){//if the deck is empty we need to shuffle discard and add to deck
+		//if the deck is empty we need to shuffle discard and add to deck
+		if (state->deckCount[currentPlayer] < 1){			
 			shuffle(currentPlayer, state);
 		}
 		drawCard(currentPlayer, state);
-		cardDrawn = state->hand[currentPlayer][state->handCount[currentPlayer] - 1];//top card of hand is most recently drawn card.
+		
+		//top card of hand is most recently drawn card.
+		cardDrawn = state->hand[currentPlayer][state->handCount[currentPlayer] - 1];
+
 		if (cardDrawn == silver || cardDrawn == gold)
 			drawnTreasure++;
 		else{
 			tempHand[z] = cardDrawn;
-			state->handCount[currentPlayer]--; //this should just remove the top card (the most recently drawn one).
+
+			//this should just remove the top card (the most recently drawn one).
+			state->handCount[currentPlayer]--; 			
 			z++;
 		}
 	}
