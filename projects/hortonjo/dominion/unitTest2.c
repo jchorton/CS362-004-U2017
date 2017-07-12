@@ -29,17 +29,23 @@ int main () {
 	// int initializeGame(int numPlayers, int kingdomCards[10], int randomSeed, struct gameState *state);
 	initializeGame(2, k, 1, &G);
 
-	int r;
 	printf("\n");
-	printf("Testing whoseTurn\n");
-	printf("-----------------\n");
-	r = whoseTurn(&G);
-	assertTrue(r == G.whoseTurn, "Returned value matches what's stored", 0); 
+	printf("Testing shuffle\n");
+	printf("---------------\n");
 	
-	endTurn(&G);
+	assertTrue(G.deckCount[0] == 5, "Player 1 deck count is 5 before shuffle", 0);
+	assertTrue(G.deckCount[1] == 10, "Player 2 deck count is 10 before shuffle", 0);
 
-	r = whoseTurn(&G);
-	assertTrue(r == G.whoseTurn, "Still matches after ending the turn", 0);
+	printf("\nShuffling Player 1 deck...\n");
+	shuffle(0, &G);
+	assertTrue(G.deckCount[0] == 5, "Player 1 deck count is 5 after shuffle", 0);
+	assertTrue(G.deckCount[1] == 10, "Player 2 deck count is 10 after shuffle", 0);
+
+	printf("\nAdding 3 cards to player 1 discard pile and shuffling...\n");
+	G.discardCount[0] = 3;
+	shuffle(0, &G);
+	assertTrue(G.deckCount[0] == 5, "Player 1 deck count is still 5 after shuffle", 0);
+	assertTrue(G.discardCount[0] == 3, "Player 1 discard count is still 3 after shuffle", 0);
 
 
 	return 0;

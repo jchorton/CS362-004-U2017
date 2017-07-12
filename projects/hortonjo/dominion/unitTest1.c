@@ -44,6 +44,8 @@ int main () {
 	assertTrue(G.supplyCount[copper] == 46, "Number of copper cards set to 46", 0);
 	assertTrue(G.supplyCount[silver] == 40, "Number of silver cards set to 40", 0);
 	assertTrue(G.supplyCount[gold] == 30, "Number of gold cards set to 30", 0);
+	assertTrue(G.deckCount[0] == 5, "Player 1 deck count is 5", 0);
+	assertTrue(G.deckCount[1] == 10, "Player 2 deck count is 10", 0);
 	
 	printf("\n");
 	r = initializeGame(3, k, 1, &G);
@@ -56,6 +58,9 @@ int main () {
 	assertTrue(G.supplyCount[copper] == 39, "Number of copper cards set to 39", 0);
 	assertTrue(G.supplyCount[silver] == 40, "Number of silver cards set to 40", 0);
 	assertTrue(G.supplyCount[gold] == 30, "Number of gold cards set to 30", 0);
+	assertTrue(G.deckCount[0] == 5, "Player 1 deck count is 5", 0);
+	assertTrue(G.deckCount[1] == 10, "Player 2 deck count is 10", 0);
+	assertTrue(G.deckCount[2] == 10, "Player 3 deck count is 10", 0);
 
 	printf("\n");
 	r = initializeGame(4, k, 1, &G);
@@ -68,6 +73,10 @@ int main () {
 	assertTrue(G.supplyCount[copper] == 32, "Number of copper cards set to 39", 0);
 	assertTrue(G.supplyCount[silver] == 40, "Number of silver cards set to 40", 0);
 	assertTrue(G.supplyCount[gold] == 30, "Number of gold cards set to 30", 0);
+	assertTrue(G.deckCount[0] == 5, "Player 1 deck count is 5", 0);
+	assertTrue(G.deckCount[1] == 10, "Player 2 deck count is 10", 0);
+	assertTrue(G.deckCount[2] == 10, "Player 3 deck count is 10", 0);
+	assertTrue(G.deckCount[3] == 10, "Player 4 deck count is 10", 0);
 
 	return 0;
 }
