@@ -96,10 +96,13 @@ unittestresults.out: dominion.o rngs.o assertTrue.o unitTest1.c unitTest2.c unit
 
 	cat dominion.c.gcov >> unittestresults.out
 
+randomtestadventurer: randomtestadventurer.c dominion.o rngs.o assertTrue.o
+	gcc -o randomtestadventurer -g randomtestadventurer.c dominion.o rngs.o assertTrue.o $(CFLAGS)
+
 player: player.c interface.o
 	gcc -o player player.c -g  dominion.o rngs.o interface.o $(CFLAGS)
 
 all: playdom player unitTest1 unitTest2 unitTest3 unitTest4 cardTest1 cardTest2 cardTest3 cardTest4
 
 clean:
-	rm -f *.o playdom.exe playdom player player.exe  *.gcov *.gcda *.gcno *.so *.out testDrawCard testDrawCard.exe badTestDrawCard unitTest1 unitTest2 unitTest3 unitTest4 cardTest1 cardTest2 cardTest3 cardTest4
+	rm -f *.o playdom.exe playdom player player.exe  *.gcov *.gcda *.gcno *.so *.out testDrawCard testDrawCard.exe badTestDrawCard unitTest1 unitTest2 unitTest3 unitTest4 cardTest1 cardTest2 cardTest3 cardTest4 randomtestadventurer

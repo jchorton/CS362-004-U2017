@@ -64,7 +64,7 @@ int main () {
 	printf("\nChecking boundary where deck count is 0...\n");
 	initializeGame(2, k, 1, &newG);
 	newG.deckCount[0] = 0;
-	actionSmithy(&newG, 0);
+	actionAdventurer(&newG, 0);
 	assertTrue(oldG.handCount[0] - 1 == newG.handCount[0], "Hand size goes down by 1", 0);
 	assertTrue(newG.deckCount[0] == 0, "Deck count is set to zero", 0);
 
