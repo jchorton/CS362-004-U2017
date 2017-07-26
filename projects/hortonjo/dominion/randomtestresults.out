@@ -1,0 +1,4098 @@
+Results for running dominion tests:
+randomtestadventurer.c:
+Testing Adventurer Card with random tests
+FAIL : gameState equal
+Checking for equality in gameState for player 1:
+Pre handCount = 127 	 Post handCount = 109
+			 Post deckCount = 0
+			 Post discardCount = 24
+FAIL : 1 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 1:
+Pre handCount = 154 	 Post handCount = 138
+			 Post deckCount = 0
+			 Post discardCount = 44
+FAIL : 1 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 4:
+Pre handCount = 66 	 Post handCount = 65
+			 Post deckCount = 0
+			 Post discardCount = 30
+FAIL : 4 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 4:
+Pre handCount = 143 	 Post handCount = 142
+			 Post deckCount = 0
+			 Post discardCount = 53
+FAIL : 4 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 4:
+Pre handCount = 120 	 Post handCount = 119
+			 Post deckCount = 0
+			 Post discardCount = 52
+FAIL : 4 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 4:
+Pre handCount = 117 	 Post handCount = 116
+			 Post deckCount = 0
+			 Post discardCount = 18
+FAIL : 4 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 4:
+Pre handCount = 90 	 Post handCount = 89
+			 Post deckCount = 0
+			 Post discardCount = 58
+FAIL : 4 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 4:
+Pre handCount = 33 	 Post handCount = 25
+			 Post deckCount = 0
+			 Post discardCount = 26
+FAIL : 4 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 3:
+Pre handCount = 115 	 Post handCount = 108
+			 Post deckCount = 0
+			 Post discardCount = 20
+FAIL : 3 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 4:
+Pre handCount = 92 	 Post handCount = 78
+			 Post deckCount = 0
+			 Post discardCount = 27
+FAIL : 4 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 1:
+Pre handCount = 56 	 Post handCount = 55
+			 Post deckCount = 0
+			 Post discardCount = 74
+FAIL : 1 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 3:
+Pre handCount = 130 	 Post handCount = 129
+			 Post deckCount = 0
+			 Post discardCount = 30
+FAIL : 3 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 1:
+Pre handCount = 25 	 Post handCount = 24
+			 Post deckCount = 0
+			 Post discardCount = 27
+FAIL : 1 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 4:
+Pre handCount = 41 	 Post handCount = 40
+			 Post deckCount = 0
+			 Post discardCount = 42
+FAIL : 4 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 2:
+Pre handCount = 20 	 Post handCount = 19
+			 Post deckCount = 0
+			 Post discardCount = 16
+FAIL : 2 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 3:
+Pre handCount = 131 	 Post handCount = 124
+			 Post deckCount = 0
+			 Post discardCount = 45
+FAIL : 3 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 3:
+Pre handCount = 105 	 Post handCount = 95
+			 Post deckCount = 0
+			 Post discardCount = 48
+FAIL : 3 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 2:
+Pre handCount = 71 	 Post handCount = 70
+			 Post deckCount = 0
+			 Post discardCount = 12
+FAIL : 2 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 2:
+Pre handCount = 15 	 Post handCount = 14
+			 Post deckCount = 0
+			 Post discardCount = 54
+FAIL : 2 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 3:
+Pre handCount = 121 	 Post handCount = 120
+			 Post deckCount = 0
+			 Post discardCount = 23
+FAIL : 3 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 2:
+Pre handCount = 78 	 Post handCount = 66
+			 Post deckCount = 0
+			 Post discardCount = 31
+FAIL : 2 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 4:
+Pre handCount = 6 	 Post handCount = -18
+			 Post deckCount = 0
+			 Post discardCount = 52
+FAIL : 4 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 3:
+Pre handCount = 34 	 Post handCount = 33
+			 Post deckCount = 0
+			 Post discardCount = 39
+FAIL : 3 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 4:
+Pre handCount = 166 	 Post handCount = 150
+			 Post deckCount = 0
+			 Post discardCount = 21
+FAIL : 4 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 3:
+Pre handCount = 111 	 Post handCount = 110
+			 Post deckCount = 0
+			 Post discardCount = 77
+FAIL : 3 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 1:
+Pre handCount = 62 	 Post handCount = 61
+			 Post deckCount = 0
+			 Post discardCount = 16
+FAIL : 1 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 1:
+Pre handCount = 44 	 Post handCount = 42
+			 Post deckCount = 0
+			 Post discardCount = 24
+FAIL : 1 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 3:
+Pre handCount = 11 	 Post handCount = 9
+			 Post deckCount = 0
+			 Post discardCount = 24
+FAIL : 3 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 2:
+Pre handCount = 72 	 Post handCount = 71
+			 Post deckCount = 0
+			 Post discardCount = 17
+FAIL : 2 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 1:
+Pre handCount = 142 	 Post handCount = 141
+			 Post deckCount = 0
+			 Post discardCount = 28
+FAIL : 1 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 1:
+Pre handCount = 121 	 Post handCount = 90
+			 Post deckCount = 0
+			 Post discardCount = 52
+FAIL : 1 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 4:
+Pre handCount = 148 	 Post handCount = 147
+			 Post deckCount = 0
+			 Post discardCount = 47
+FAIL : 4 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 1:
+Pre handCount = 59 	 Post handCount = 58
+			 Post deckCount = 0
+			 Post discardCount = 9
+FAIL : 1 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 2:
+Pre handCount = 84 	 Post handCount = 83
+			 Post deckCount = 0
+			 Post discardCount = 41
+FAIL : 2 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 3:
+Pre handCount = 15 	 Post handCount = 14
+			 Post deckCount = 0
+			 Post discardCount = 84
+FAIL : 3 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 1:
+Pre handCount = 20 	 Post handCount = 19
+			 Post deckCount = 0
+			 Post discardCount = 108
+FAIL : 1 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 3:
+Pre handCount = 80 	 Post handCount = 60
+			 Post deckCount = 0
+			 Post discardCount = 40
+FAIL : 3 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 2:
+Pre handCount = 98 	 Post handCount = 72
+			 Post deckCount = 0
+			 Post discardCount = 49
+FAIL : 2 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 1:
+Pre handCount = 5 	 Post handCount = 4
+			 Post deckCount = 0
+			 Post discardCount = 15
+FAIL : 1 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 1:
+Pre handCount = 11 	 Post handCount = -76
+			 Post deckCount = 0
+			 Post discardCount = 108
+FAIL : 1 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 1:
+Pre handCount = 17 	 Post handCount = 16
+			 Post deckCount = 0
+			 Post discardCount = 31
+FAIL : 1 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 2:
+Pre handCount = 73 	 Post handCount = 62
+			 Post deckCount = 0
+			 Post discardCount = 27
+FAIL : 2 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 3:
+Pre handCount = 65 	 Post handCount = 64
+			 Post deckCount = 0
+			 Post discardCount = 24
+FAIL : 3 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 1:
+Pre handCount = 112 	 Post handCount = 111
+			 Post deckCount = 0
+			 Post discardCount = 45
+FAIL : 1 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 3:
+Pre handCount = 155 	 Post handCount = 154
+			 Post deckCount = 0
+			 Post discardCount = 32
+FAIL : 3 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 4:
+Pre handCount = 148 	 Post handCount = 144
+			 Post deckCount = 0
+			 Post discardCount = 29
+FAIL : 4 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 1:
+Pre handCount = 165 	 Post handCount = 164
+			 Post deckCount = 0
+			 Post discardCount = 42
+FAIL : 1 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 4:
+Pre handCount = 46 	 Post handCount = 45
+			 Post deckCount = 0
+			 Post discardCount = 32
+FAIL : 4 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 4:
+Pre handCount = 109 	 Post handCount = 108
+			 Post deckCount = 0
+			 Post discardCount = 65
+FAIL : 4 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 4:
+Pre handCount = 80 	 Post handCount = 53
+			 Post deckCount = 0
+			 Post discardCount = 82
+FAIL : 4 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 3:
+Pre handCount = 106 	 Post handCount = 89
+			 Post deckCount = 0
+			 Post discardCount = 70
+FAIL : 3 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 1:
+Pre handCount = 125 	 Post handCount = 124
+			 Post deckCount = 0
+			 Post discardCount = 23
+FAIL : 1 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 3:
+Pre handCount = 21 	 Post handCount = 20
+			 Post deckCount = 0
+			 Post discardCount = 36
+FAIL : 3 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 2:
+Pre handCount = 38 	 Post handCount = 37
+			 Post deckCount = 0
+			 Post discardCount = 63
+FAIL : 2 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 1:
+Pre handCount = 100 	 Post handCount = 99
+			 Post deckCount = 0
+			 Post discardCount = 35
+FAIL : 1 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 2:
+Pre handCount = 119 	 Post handCount = 118
+			 Post deckCount = 0
+			 Post discardCount = 17
+FAIL : 2 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 1:
+Pre handCount = 96 	 Post handCount = 77
+			 Post deckCount = 0
+			 Post discardCount = 43
+FAIL : 1 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 4:
+Pre handCount = 154 	 Post handCount = 153
+			 Post deckCount = 0
+			 Post discardCount = 39
+FAIL : 4 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 2:
+Pre handCount = 79 	 Post handCount = 78
+			 Post deckCount = 0
+			 Post discardCount = 85
+FAIL : 2 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 2:
+Pre handCount = 2 	 Post handCount = 1
+			 Post deckCount = 0
+			 Post discardCount = 30
+FAIL : 2 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 3:
+Pre handCount = 63 	 Post handCount = 62
+			 Post deckCount = 0
+			 Post discardCount = 75
+FAIL : 3 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 2:
+Pre handCount = 129 	 Post handCount = 128
+			 Post deckCount = 0
+			 Post discardCount = 36
+FAIL : 2 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 2:
+Pre handCount = 68 	 Post handCount = 64
+			 Post deckCount = 0
+			 Post discardCount = 17
+FAIL : 2 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 4:
+Pre handCount = 5 	 Post handCount = 4
+			 Post deckCount = 0
+			 Post discardCount = 17
+FAIL : 4 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 3:
+Pre handCount = 95 	 Post handCount = 94
+			 Post deckCount = 0
+			 Post discardCount = 61
+FAIL : 3 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 4:
+Pre handCount = 51 	 Post handCount = 50
+			 Post deckCount = 0
+			 Post discardCount = 25
+FAIL : 4 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 3:
+Pre handCount = 139 	 Post handCount = 123
+			 Post deckCount = 0
+			 Post discardCount = 46
+FAIL : 3 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 4:
+Pre handCount = 79 	 Post handCount = 78
+			 Post deckCount = 0
+			 Post discardCount = 25
+FAIL : 4 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 4:
+Pre handCount = 102 	 Post handCount = 88
+			 Post deckCount = 0
+			 Post discardCount = 30
+FAIL : 4 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 1:
+Pre handCount = 28 	 Post handCount = 25
+			 Post deckCount = 0
+			 Post discardCount = 25
+FAIL : 1 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 2:
+Pre handCount = 109 	 Post handCount = 108
+			 Post deckCount = 0
+			 Post discardCount = 40
+FAIL : 2 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 4:
+Pre handCount = 145 	 Post handCount = 144
+			 Post deckCount = 0
+			 Post discardCount = 25
+FAIL : 4 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 2:
+Pre handCount = 120 	 Post handCount = 119
+			 Post deckCount = 0
+			 Post discardCount = 50
+FAIL : 2 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 2:
+Pre handCount = 33 	 Post handCount = 29
+			 Post deckCount = 0
+			 Post discardCount = 10
+FAIL : 2 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 2:
+Pre handCount = 141 	 Post handCount = 140
+			 Post deckCount = 0
+			 Post discardCount = 22
+FAIL : 2 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 3:
+Pre handCount = 103 	 Post handCount = 96
+			 Post deckCount = 0
+			 Post discardCount = 60
+FAIL : 3 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 1:
+Pre handCount = 139 	 Post handCount = 138
+			 Post deckCount = 0
+			 Post discardCount = 4
+FAIL : 1 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 3:
+Pre handCount = 142 	 Post handCount = 116
+			 Post deckCount = 0
+			 Post discardCount = 46
+FAIL : 3 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 2:
+Pre handCount = 70 	 Post handCount = 24
+			 Post deckCount = 0
+			 Post discardCount = 64
+FAIL : 2 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 4:
+Pre handCount = 16 	 Post handCount = 15
+			 Post deckCount = 0
+			 Post discardCount = 45
+FAIL : 4 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 1:
+Pre handCount = 155 	 Post handCount = 154
+			 Post deckCount = 0
+			 Post discardCount = 39
+FAIL : 1 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 2:
+Pre handCount = 116 	 Post handCount = 104
+			 Post deckCount = 0
+			 Post discardCount = 30
+FAIL : 2 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 4:
+Pre handCount = 102 	 Post handCount = 92
+			 Post deckCount = 0
+			 Post discardCount = 55
+FAIL : 4 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 2:
+Pre handCount = 84 	 Post handCount = 65
+			 Post deckCount = 0
+			 Post discardCount = 32
+FAIL : 2 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 4:
+Pre handCount = 150 	 Post handCount = 149
+			 Post deckCount = 0
+			 Post discardCount = 20
+FAIL : 4 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 3:
+Pre handCount = 34 	 Post handCount = 33
+			 Post deckCount = 0
+			 Post discardCount = 16
+FAIL : 3 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 3:
+Pre handCount = 159 	 Post handCount = 158
+			 Post deckCount = 0
+			 Post discardCount = 27
+FAIL : 3 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 3:
+Pre handCount = 158 	 Post handCount = 157
+			 Post deckCount = 0
+			 Post discardCount = 42
+FAIL : 3 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 3:
+Pre handCount = 88 	 Post handCount = 87
+			 Post deckCount = 0
+			 Post discardCount = 17
+FAIL : 3 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 2:
+Pre handCount = 79 	 Post handCount = 73
+			 Post deckCount = 0
+			 Post discardCount = 22
+FAIL : 2 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 3:
+Pre handCount = 141 	 Post handCount = 140
+			 Post deckCount = 0
+			 Post discardCount = 44
+FAIL : 3 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 4:
+Pre handCount = 150 	 Post handCount = 146
+			 Post deckCount = 0
+			 Post discardCount = 45
+FAIL : 4 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 4:
+Pre handCount = 3 	 Post handCount = -5
+			 Post deckCount = 0
+			 Post discardCount = 39
+FAIL : 4 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 2:
+Pre handCount = 151 	 Post handCount = 150
+			 Post deckCount = 0
+			 Post discardCount = 12
+FAIL : 2 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 1:
+Pre handCount = 140 	 Post handCount = 139
+			 Post deckCount = 0
+			 Post discardCount = 21
+FAIL : 1 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 1:
+Pre handCount = 35 	 Post handCount = 34
+			 Post deckCount = 0
+			 Post discardCount = 39
+FAIL : 1 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 4:
+Pre handCount = 73 	 Post handCount = 62
+			 Post deckCount = 0
+			 Post discardCount = 35
+FAIL : 4 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 1:
+Pre handCount = 142 	 Post handCount = 141
+			 Post deckCount = 0
+			 Post discardCount = 42
+FAIL : 1 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 3:
+Pre handCount = 66 	 Post handCount = 65
+			 Post deckCount = 0
+			 Post discardCount = 29
+FAIL : 3 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 2:
+Pre handCount = 149 	 Post handCount = 140
+			 Post deckCount = 0
+			 Post discardCount = 33
+FAIL : 2 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 1:
+Pre handCount = 69 	 Post handCount = 43
+			 Post deckCount = 0
+			 Post discardCount = 45
+FAIL : 1 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 3:
+Pre handCount = 92 	 Post handCount = 91
+			 Post deckCount = 0
+			 Post discardCount = 15
+FAIL : 3 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 3:
+Pre handCount = 57 	 Post handCount = 56
+			 Post deckCount = 0
+			 Post discardCount = 21
+FAIL : 3 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 4:
+Pre handCount = 15 	 Post handCount = 14
+			 Post deckCount = 0
+			 Post discardCount = 43
+FAIL : 4 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 2:
+Pre handCount = 67 	 Post handCount = 65
+			 Post deckCount = 0
+			 Post discardCount = 49
+FAIL : 2 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 4:
+Pre handCount = 116 	 Post handCount = 115
+			 Post deckCount = 0
+			 Post discardCount = 16
+FAIL : 4 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 1:
+Pre handCount = 96 	 Post handCount = 95
+			 Post deckCount = 0
+			 Post discardCount = 29
+FAIL : 1 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 3:
+Pre handCount = 88 	 Post handCount = 87
+			 Post deckCount = 0
+			 Post discardCount = 34
+FAIL : 3 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 1:
+Pre handCount = 12 	 Post handCount = 11
+			 Post deckCount = 0
+			 Post discardCount = 44
+FAIL : 1 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 2:
+Pre handCount = 164 	 Post handCount = 163
+			 Post deckCount = 0
+			 Post discardCount = 36
+FAIL : 2 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 4:
+Pre handCount = 130 	 Post handCount = 129
+			 Post deckCount = 0
+			 Post discardCount = 18
+FAIL : 4 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 3:
+Pre handCount = 151 	 Post handCount = 146
+			 Post deckCount = 0
+			 Post discardCount = 55
+FAIL : 3 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 4:
+Pre handCount = 165 	 Post handCount = 156
+			 Post deckCount = 0
+			 Post discardCount = 21
+FAIL : 4 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 3:
+Pre handCount = 78 	 Post handCount = 77
+			 Post deckCount = 0
+			 Post discardCount = 15
+FAIL : 3 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 3:
+Pre handCount = 118 	 Post handCount = 117
+			 Post deckCount = 0
+			 Post discardCount = 15
+FAIL : 3 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 2:
+Pre handCount = 21 	 Post handCount = 3
+			 Post deckCount = 0
+			 Post discardCount = 42
+FAIL : 2 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 4:
+Pre handCount = 124 	 Post handCount = 123
+			 Post deckCount = 0
+			 Post discardCount = 14
+FAIL : 4 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 4:
+Pre handCount = 85 	 Post handCount = 78
+			 Post deckCount = 0
+			 Post discardCount = 19
+FAIL : 4 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 4:
+Pre handCount = 74 	 Post handCount = 72
+			 Post deckCount = 0
+			 Post discardCount = 41
+FAIL : 4 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 1:
+Pre handCount = 48 	 Post handCount = 47
+			 Post deckCount = 0
+			 Post discardCount = 23
+FAIL : 1 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 2:
+Pre handCount = 76 	 Post handCount = 75
+			 Post deckCount = 0
+			 Post discardCount = 54
+FAIL : 2 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 4:
+Pre handCount = 35 	 Post handCount = 34
+			 Post deckCount = 0
+			 Post discardCount = 39
+FAIL : 4 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 3:
+Pre handCount = 99 	 Post handCount = 98
+			 Post deckCount = 0
+			 Post discardCount = 40
+FAIL : 3 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 1:
+Pre handCount = 90 	 Post handCount = 89
+			 Post deckCount = 0
+			 Post discardCount = 24
+FAIL : 1 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 1:
+Pre handCount = 73 	 Post handCount = 72
+			 Post deckCount = 0
+			 Post discardCount = 46
+FAIL : 1 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 4:
+Pre handCount = 74 	 Post handCount = 73
+			 Post deckCount = 0
+			 Post discardCount = 46
+FAIL : 4 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 1:
+Pre handCount = 160 	 Post handCount = 159
+			 Post deckCount = 0
+			 Post discardCount = 57
+FAIL : 1 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 3:
+Pre handCount = 151 	 Post handCount = 144
+			 Post deckCount = 0
+			 Post discardCount = 17
+FAIL : 3 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 2:
+Pre handCount = 166 	 Post handCount = 165
+			 Post deckCount = 0
+			 Post discardCount = 24
+FAIL : 2 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 1:
+Pre handCount = 167 	 Post handCount = 166
+			 Post deckCount = 0
+			 Post discardCount = 46
+FAIL : 1 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 3:
+Pre handCount = 79 	 Post handCount = 75
+			 Post deckCount = 0
+			 Post discardCount = 13
+FAIL : 3 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 4:
+Pre handCount = 46 	 Post handCount = 45
+			 Post deckCount = 0
+			 Post discardCount = 46
+FAIL : 4 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 1:
+Pre handCount = 10 	 Post handCount = 9
+			 Post deckCount = 0
+			 Post discardCount = 54
+FAIL : 1 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 3:
+Pre handCount = 65 	 Post handCount = 63
+			 Post deckCount = 0
+			 Post discardCount = 27
+FAIL : 3 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 4:
+Pre handCount = 45 	 Post handCount = 44
+			 Post deckCount = 0
+			 Post discardCount = 30
+FAIL : 4 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 2:
+Pre handCount = 99 	 Post handCount = 98
+			 Post deckCount = 0
+			 Post discardCount = 18
+FAIL : 2 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 4:
+Pre handCount = 112 	 Post handCount = 111
+			 Post deckCount = 0
+			 Post discardCount = 26
+FAIL : 4 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 4:
+Pre handCount = 96 	 Post handCount = 95
+			 Post deckCount = 0
+			 Post discardCount = 21
+FAIL : 4 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 4:
+Pre handCount = 64 	 Post handCount = 59
+			 Post deckCount = 0
+			 Post discardCount = 23
+FAIL : 4 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 4:
+Pre handCount = 146 	 Post handCount = 145
+			 Post deckCount = 0
+			 Post discardCount = 35
+FAIL : 4 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 2:
+Pre handCount = 101 	 Post handCount = 100
+			 Post deckCount = 0
+			 Post discardCount = 10
+FAIL : 2 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 1:
+Pre handCount = 35 	 Post handCount = 34
+			 Post deckCount = 0
+			 Post discardCount = 33
+FAIL : 1 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 2:
+Pre handCount = 85 	 Post handCount = 84
+			 Post deckCount = 0
+			 Post discardCount = 26
+FAIL : 2 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 2:
+Pre handCount = 88 	 Post handCount = 87
+			 Post deckCount = 0
+			 Post discardCount = 38
+FAIL : 2 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 1:
+Pre handCount = 150 	 Post handCount = 149
+			 Post deckCount = 0
+			 Post discardCount = 55
+FAIL : 1 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 3:
+Pre handCount = 68 	 Post handCount = 34
+			 Post deckCount = 0
+			 Post discardCount = 69
+FAIL : 3 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 1:
+Pre handCount = 114 	 Post handCount = 101
+			 Post deckCount = 0
+			 Post discardCount = 66
+FAIL : 1 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 3:
+Pre handCount = 84 	 Post handCount = 83
+			 Post deckCount = 0
+			 Post discardCount = 38
+FAIL : 3 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 1:
+Pre handCount = 82 	 Post handCount = 76
+			 Post deckCount = 0
+			 Post discardCount = 24
+FAIL : 1 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 1:
+Pre handCount = 155 	 Post handCount = 152
+			 Post deckCount = 0
+			 Post discardCount = 32
+FAIL : 1 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 2:
+Pre handCount = 153 	 Post handCount = 152
+			 Post deckCount = 0
+			 Post discardCount = 20
+FAIL : 2 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 2:
+Pre handCount = 156 	 Post handCount = 129
+			 Post deckCount = 0
+			 Post discardCount = 72
+FAIL : 2 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 3:
+Pre handCount = 58 	 Post handCount = 36
+			 Post deckCount = 0
+			 Post discardCount = 27
+FAIL : 3 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 2:
+Pre handCount = 81 	 Post handCount = 80
+			 Post deckCount = 0
+			 Post discardCount = 24
+FAIL : 2 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 4:
+Pre handCount = 139 	 Post handCount = 138
+			 Post deckCount = 0
+			 Post discardCount = 4
+FAIL : 4 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 4:
+Pre handCount = 2 	 Post handCount = 1
+			 Post deckCount = 0
+			 Post discardCount = 27
+FAIL : 4 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 1:
+Pre handCount = 75 	 Post handCount = 74
+			 Post deckCount = 0
+			 Post discardCount = 35
+FAIL : 1 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 4:
+Pre handCount = 119 	 Post handCount = 118
+			 Post deckCount = 0
+			 Post discardCount = 24
+FAIL : 4 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 1:
+Pre handCount = 55 	 Post handCount = 54
+			 Post deckCount = 0
+			 Post discardCount = 32
+FAIL : 1 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 4:
+Pre handCount = 166 	 Post handCount = 160
+			 Post deckCount = 0
+			 Post discardCount = 38
+FAIL : 4 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 4:
+Pre handCount = 8 	 Post handCount = 7
+			 Post deckCount = 0
+			 Post discardCount = 39
+FAIL : 4 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 1:
+Pre handCount = 160 	 Post handCount = 155
+			 Post deckCount = 0
+			 Post discardCount = 46
+FAIL : 1 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 3:
+Pre handCount = 7 	 Post handCount = 6
+			 Post deckCount = 0
+			 Post discardCount = 42
+FAIL : 3 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 2:
+Pre handCount = 58 	 Post handCount = 57
+			 Post deckCount = 0
+			 Post discardCount = 49
+FAIL : 2 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 3:
+Pre handCount = 125 	 Post handCount = 124
+			 Post deckCount = 0
+			 Post discardCount = 15
+FAIL : 3 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 4:
+Pre handCount = 132 	 Post handCount = 131
+			 Post deckCount = 0
+			 Post discardCount = 37
+FAIL : 4 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 3:
+Pre handCount = 112 	 Post handCount = 88
+			 Post deckCount = 0
+			 Post discardCount = 35
+FAIL : 3 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 1:
+Pre handCount = 128 	 Post handCount = 123
+			 Post deckCount = 0
+			 Post discardCount = 20
+FAIL : 1 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 4:
+Pre handCount = 54 	 Post handCount = 53
+			 Post deckCount = 0
+			 Post discardCount = 45
+FAIL : 4 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 4:
+Pre handCount = 161 	 Post handCount = 160
+			 Post deckCount = 0
+			 Post discardCount = 51
+FAIL : 4 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 4:
+Pre handCount = 159 	 Post handCount = 158
+			 Post deckCount = 0
+			 Post discardCount = 14
+FAIL : 4 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 3:
+Pre handCount = 164 	 Post handCount = 163
+			 Post deckCount = 0
+			 Post discardCount = 64
+FAIL : 3 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 2:
+Pre handCount = 116 	 Post handCount = 115
+			 Post deckCount = 0
+			 Post discardCount = 35
+FAIL : 2 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 4:
+Pre handCount = 109 	 Post handCount = 108
+			 Post deckCount = 0
+			 Post discardCount = 16
+FAIL : 4 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 3:
+Pre handCount = 112 	 Post handCount = 91
+			 Post deckCount = 0
+			 Post discardCount = 29
+FAIL : 3 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 4:
+Pre handCount = 24 	 Post handCount = 8
+			 Post deckCount = 0
+			 Post discardCount = 32
+FAIL : 4 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 3:
+Pre handCount = 55 	 Post handCount = 54
+			 Post deckCount = 0
+			 Post discardCount = 51
+FAIL : 3 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 4:
+Pre handCount = 138 	 Post handCount = 121
+			 Post deckCount = 0
+			 Post discardCount = 27
+FAIL : 4 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 3:
+Pre handCount = 97 	 Post handCount = 87
+			 Post deckCount = 0
+			 Post discardCount = 61
+FAIL : 3 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 2:
+Pre handCount = 83 	 Post handCount = 82
+			 Post deckCount = 0
+			 Post discardCount = 32
+FAIL : 2 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 1:
+Pre handCount = 88 	 Post handCount = 87
+			 Post deckCount = 0
+			 Post discardCount = 25
+FAIL : 1 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 2:
+Pre handCount = 98 	 Post handCount = 91
+			 Post deckCount = 0
+			 Post discardCount = 31
+FAIL : 2 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 2:
+Pre handCount = 34 	 Post handCount = 23
+			 Post deckCount = 0
+			 Post discardCount = 26
+FAIL : 2 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 2:
+Pre handCount = 5 	 Post handCount = -2
+			 Post deckCount = 0
+			 Post discardCount = 22
+FAIL : 2 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 1:
+Pre handCount = 84 	 Post handCount = 83
+			 Post deckCount = 0
+			 Post discardCount = 39
+FAIL : 1 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 2:
+Pre handCount = 8 	 Post handCount = -22
+			 Post deckCount = 0
+			 Post discardCount = 53
+FAIL : 2 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 4:
+Pre handCount = 45 	 Post handCount = 34
+			 Post deckCount = 0
+			 Post discardCount = 40
+FAIL : 4 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 3:
+Pre handCount = 16 	 Post handCount = 15
+			 Post deckCount = 0
+			 Post discardCount = 33
+FAIL : 3 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 4:
+Pre handCount = 66 	 Post handCount = 63
+			 Post deckCount = 0
+			 Post discardCount = 17
+FAIL : 4 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 1:
+Pre handCount = 4 	 Post handCount = 2
+			 Post deckCount = 0
+			 Post discardCount = 36
+FAIL : 1 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 3:
+Pre handCount = 124 	 Post handCount = 122
+			 Post deckCount = 0
+			 Post discardCount = 58
+FAIL : 3 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 3:
+Pre handCount = 140 	 Post handCount = 139
+			 Post deckCount = 0
+			 Post discardCount = 82
+FAIL : 3 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 1:
+Pre handCount = 148 	 Post handCount = 147
+			 Post deckCount = 0
+			 Post discardCount = 54
+FAIL : 1 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 2:
+Pre handCount = 74 	 Post handCount = 73
+			 Post deckCount = 0
+			 Post discardCount = 5
+FAIL : 2 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 3:
+Pre handCount = 141 	 Post handCount = 140
+			 Post deckCount = 0
+			 Post discardCount = 22
+FAIL : 3 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 1:
+Pre handCount = 76 	 Post handCount = 62
+			 Post deckCount = 0
+			 Post discardCount = 42
+FAIL : 1 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 3:
+Pre handCount = 166 	 Post handCount = 150
+			 Post deckCount = 0
+			 Post discardCount = 56
+FAIL : 3 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 4:
+Pre handCount = 120 	 Post handCount = 116
+			 Post deckCount = 0
+			 Post discardCount = 33
+FAIL : 4 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 1:
+Pre handCount = 3 	 Post handCount = 2
+			 Post deckCount = 0
+			 Post discardCount = 39
+FAIL : 1 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 4:
+Pre handCount = 92 	 Post handCount = 91
+			 Post deckCount = 0
+			 Post discardCount = 23
+FAIL : 4 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 4:
+Pre handCount = 67 	 Post handCount = 66
+			 Post deckCount = 0
+			 Post discardCount = 34
+FAIL : 4 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 4:
+Pre handCount = 20 	 Post handCount = -27
+			 Post deckCount = 0
+			 Post discardCount = 76
+FAIL : 4 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 1:
+Pre handCount = 79 	 Post handCount = 78
+			 Post deckCount = 0
+			 Post discardCount = 48
+FAIL : 1 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 1:
+Pre handCount = 17 	 Post handCount = 16
+			 Post deckCount = 0
+			 Post discardCount = 22
+FAIL : 1 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 3:
+Pre handCount = 53 	 Post handCount = 52
+			 Post deckCount = 0
+			 Post discardCount = 53
+FAIL : 3 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 4:
+Pre handCount = 60 	 Post handCount = 59
+			 Post deckCount = 0
+			 Post discardCount = 19
+FAIL : 4 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 3:
+Pre handCount = 28 	 Post handCount = 27
+			 Post deckCount = 0
+			 Post discardCount = 48
+FAIL : 3 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 2:
+Pre handCount = 152 	 Post handCount = 151
+			 Post deckCount = 0
+			 Post discardCount = 68
+FAIL : 2 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 3:
+Pre handCount = 156 	 Post handCount = 155
+			 Post deckCount = 0
+			 Post discardCount = 37
+FAIL : 3 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 4:
+Pre handCount = 135 	 Post handCount = 131
+			 Post deckCount = 0
+			 Post discardCount = 42
+FAIL : 4 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 2:
+Pre handCount = 21 	 Post handCount = 20
+			 Post deckCount = 0
+			 Post discardCount = 95
+FAIL : 2 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 2:
+Pre handCount = 134 	 Post handCount = 133
+			 Post deckCount = 0
+			 Post discardCount = 15
+FAIL : 2 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 3:
+Pre handCount = 51 	 Post handCount = 50
+			 Post deckCount = 0
+			 Post discardCount = 40
+FAIL : 3 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 4:
+Pre handCount = 45 	 Post handCount = 44
+			 Post deckCount = 0
+			 Post discardCount = 16
+FAIL : 4 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 1:
+Pre handCount = 139 	 Post handCount = 129
+			 Post deckCount = 0
+			 Post discardCount = 21
+FAIL : 1 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 1:
+Pre handCount = 140 	 Post handCount = 139
+			 Post deckCount = 0
+			 Post discardCount = 34
+FAIL : 1 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 1:
+Pre handCount = 128 	 Post handCount = 127
+			 Post deckCount = 0
+			 Post discardCount = 23
+FAIL : 1 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 2:
+Pre handCount = 100 	 Post handCount = 95
+			 Post deckCount = 0
+			 Post discardCount = 54
+FAIL : 2 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 4:
+Pre handCount = 33 	 Post handCount = 13
+			 Post deckCount = 0
+			 Post discardCount = 35
+FAIL : 4 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 3:
+Pre handCount = 26 	 Post handCount = 25
+			 Post deckCount = 0
+			 Post discardCount = 26
+FAIL : 3 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 2:
+Pre handCount = 63 	 Post handCount = 62
+			 Post deckCount = 0
+			 Post discardCount = 30
+FAIL : 2 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 3:
+Pre handCount = 105 	 Post handCount = 104
+			 Post deckCount = 0
+			 Post discardCount = 48
+FAIL : 3 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 3:
+Pre handCount = 160 	 Post handCount = 156
+			 Post deckCount = 0
+			 Post discardCount = 7
+FAIL : 3 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 3:
+Pre handCount = 21 	 Post handCount = 20
+			 Post deckCount = 0
+			 Post discardCount = 59
+FAIL : 3 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 2:
+Pre handCount = 146 	 Post handCount = 145
+			 Post deckCount = 0
+			 Post discardCount = 59
+FAIL : 2 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 2:
+Pre handCount = 128 	 Post handCount = 127
+			 Post deckCount = 0
+			 Post discardCount = 98
+FAIL : 2 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 4:
+Pre handCount = 132 	 Post handCount = 117
+			 Post deckCount = 0
+			 Post discardCount = 48
+FAIL : 4 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 2:
+Pre handCount = 13 	 Post handCount = 6
+			 Post deckCount = 0
+			 Post discardCount = 43
+FAIL : 2 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 1:
+Pre handCount = 33 	 Post handCount = -79
+			 Post deckCount = 0
+			 Post discardCount = 174
+FAIL : 1 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 2:
+Pre handCount = 16 	 Post handCount = 15
+			 Post deckCount = 0
+			 Post discardCount = 20
+FAIL : 2 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 1:
+Pre handCount = 2 	 Post handCount = -74
+			 Post deckCount = 0
+			 Post discardCount = 103
+FAIL : 1 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 2:
+Pre handCount = 96 	 Post handCount = 95
+			 Post deckCount = 0
+			 Post discardCount = 34
+FAIL : 2 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 4:
+Pre handCount = 85 	 Post handCount = 82
+			 Post deckCount = 0
+			 Post discardCount = 9
+FAIL : 4 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 3:
+Pre handCount = 106 	 Post handCount = 105
+			 Post deckCount = 0
+			 Post discardCount = 21
+FAIL : 3 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 2:
+Pre handCount = 92 	 Post handCount = 91
+			 Post deckCount = 0
+			 Post discardCount = 20
+FAIL : 2 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 1:
+Pre handCount = 6 	 Post handCount = 5
+			 Post deckCount = 0
+			 Post discardCount = 28
+FAIL : 1 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 3:
+Pre handCount = 43 	 Post handCount = 42
+			 Post deckCount = 0
+			 Post discardCount = 21
+FAIL : 3 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 1:
+Pre handCount = 37 	 Post handCount = 25
+			 Post deckCount = 0
+			 Post discardCount = 23
+FAIL : 1 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 4:
+Pre handCount = 61 	 Post handCount = 60
+			 Post deckCount = 0
+			 Post discardCount = 55
+FAIL : 4 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 2:
+Pre handCount = 8 	 Post handCount = 7
+			 Post deckCount = 0
+			 Post discardCount = 80
+FAIL : 2 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 3:
+Pre handCount = 166 	 Post handCount = 161
+			 Post deckCount = 0
+			 Post discardCount = 10
+FAIL : 3 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 4:
+Pre handCount = 112 	 Post handCount = 111
+			 Post deckCount = 0
+			 Post discardCount = 51
+FAIL : 4 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 4:
+Pre handCount = 34 	 Post handCount = -5
+			 Post deckCount = 0
+			 Post discardCount = 71
+FAIL : 4 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 4:
+Pre handCount = 104 	 Post handCount = 103
+			 Post deckCount = 0
+			 Post discardCount = 37
+FAIL : 4 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 4:
+Pre handCount = 85 	 Post handCount = 83
+			 Post deckCount = 0
+			 Post discardCount = 15
+FAIL : 4 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 4:
+Pre handCount = 44 	 Post handCount = 43
+			 Post deckCount = 0
+			 Post discardCount = 79
+FAIL : 4 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 3:
+Pre handCount = 12 	 Post handCount = -7
+			 Post deckCount = 0
+			 Post discardCount = 32
+FAIL : 3 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 3:
+Pre handCount = 165 	 Post handCount = 119
+			 Post deckCount = 0
+			 Post discardCount = 62
+FAIL : 3 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 3:
+Pre handCount = 15 	 Post handCount = -1
+			 Post deckCount = 0
+			 Post discardCount = 17
+FAIL : 3 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 3:
+Pre handCount = 95 	 Post handCount = 94
+			 Post deckCount = 0
+			 Post discardCount = 53
+FAIL : 3 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 2:
+Pre handCount = 25 	 Post handCount = 2
+			 Post deckCount = 0
+			 Post discardCount = 32
+FAIL : 2 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 4:
+Pre handCount = 37 	 Post handCount = 36
+			 Post deckCount = 0
+			 Post discardCount = 77
+FAIL : 4 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 3:
+Pre handCount = 63 	 Post handCount = 62
+			 Post deckCount = 0
+			 Post discardCount = 16
+FAIL : 3 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 2:
+Pre handCount = 85 	 Post handCount = 64
+			 Post deckCount = 0
+			 Post discardCount = 43
+FAIL : 2 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 4:
+Pre handCount = 35 	 Post handCount = 34
+			 Post deckCount = 0
+			 Post discardCount = 17
+FAIL : 4 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 3:
+Pre handCount = 2 	 Post handCount = 1
+			 Post deckCount = 0
+			 Post discardCount = 26
+FAIL : 3 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 4:
+Pre handCount = 0 	 Post handCount = -3
+			 Post deckCount = 0
+			 Post discardCount = 19
+FAIL : 4 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 3:
+Pre handCount = 90 	 Post handCount = 89
+			 Post deckCount = 0
+			 Post discardCount = 65
+FAIL : 3 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 4:
+Pre handCount = 120 	 Post handCount = 119
+			 Post deckCount = 0
+			 Post discardCount = 69
+FAIL : 4 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 4:
+Pre handCount = 34 	 Post handCount = 23
+			 Post deckCount = 0
+			 Post discardCount = 49
+FAIL : 4 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 3:
+Pre handCount = 29 	 Post handCount = 28
+			 Post deckCount = 0
+			 Post discardCount = 46
+FAIL : 3 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 4:
+Pre handCount = 50 	 Post handCount = 32
+			 Post deckCount = 0
+			 Post discardCount = 18
+FAIL : 4 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 2:
+Pre handCount = 166 	 Post handCount = 165
+			 Post deckCount = 0
+			 Post discardCount = 55
+FAIL : 2 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 2:
+Pre handCount = 150 	 Post handCount = 111
+			 Post deckCount = 0
+			 Post discardCount = 68
+FAIL : 2 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 2:
+Pre handCount = 16 	 Post handCount = 9
+			 Post deckCount = 0
+			 Post discardCount = 72
+FAIL : 2 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 3:
+Pre handCount = 53 	 Post handCount = 52
+			 Post deckCount = 0
+			 Post discardCount = 27
+FAIL : 3 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 3:
+Pre handCount = 56 	 Post handCount = 55
+			 Post deckCount = 0
+			 Post discardCount = 36
+FAIL : 3 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 4:
+Pre handCount = 147 	 Post handCount = 146
+			 Post deckCount = 0
+			 Post discardCount = 50
+FAIL : 4 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 2:
+Pre handCount = 102 	 Post handCount = 101
+			 Post deckCount = 0
+			 Post discardCount = 28
+FAIL : 2 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 2:
+Pre handCount = 37 	 Post handCount = 36
+			 Post deckCount = 0
+			 Post discardCount = 53
+FAIL : 2 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 3:
+Pre handCount = 161 	 Post handCount = 134
+			 Post deckCount = 0
+			 Post discardCount = 28
+FAIL : 3 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 4:
+Pre handCount = 110 	 Post handCount = 109
+			 Post deckCount = 0
+			 Post discardCount = 53
+FAIL : 4 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 2:
+Pre handCount = 53 	 Post handCount = 52
+			 Post deckCount = 0
+			 Post discardCount = 14
+FAIL : 2 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 1:
+Pre handCount = 92 	 Post handCount = 60
+			 Post deckCount = 0
+			 Post discardCount = 54
+FAIL : 1 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 2:
+Pre handCount = 167 	 Post handCount = 166
+			 Post deckCount = 0
+			 Post discardCount = 52
+FAIL : 2 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 2:
+Pre handCount = 17 	 Post handCount = 16
+			 Post deckCount = 0
+			 Post discardCount = 42
+FAIL : 2 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 3:
+Pre handCount = 63 	 Post handCount = 61
+			 Post deckCount = 0
+			 Post discardCount = 61
+FAIL : 3 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 1:
+Pre handCount = 67 	 Post handCount = 66
+			 Post deckCount = 0
+			 Post discardCount = 29
+FAIL : 1 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 4:
+Pre handCount = 133 	 Post handCount = 124
+			 Post deckCount = 0
+			 Post discardCount = 19
+FAIL : 4 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 3:
+Pre handCount = 140 	 Post handCount = 111
+			 Post deckCount = 0
+			 Post discardCount = 77
+FAIL : 3 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 1:
+Pre handCount = 25 	 Post handCount = 24
+			 Post deckCount = 0
+			 Post discardCount = 20
+FAIL : 1 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 2:
+Pre handCount = 110 	 Post handCount = 109
+			 Post deckCount = 0
+			 Post discardCount = 68
+FAIL : 2 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 3:
+Pre handCount = 130 	 Post handCount = 129
+			 Post deckCount = 0
+			 Post discardCount = 28
+FAIL : 3 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 1:
+Pre handCount = 93 	 Post handCount = 83
+			 Post deckCount = 0
+			 Post discardCount = 32
+FAIL : 1 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 3:
+Pre handCount = 40 	 Post handCount = 39
+			 Post deckCount = 0
+			 Post discardCount = 35
+FAIL : 3 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 2:
+Pre handCount = 143 	 Post handCount = 142
+			 Post deckCount = 0
+			 Post discardCount = 66
+FAIL : 2 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 4:
+Pre handCount = 80 	 Post handCount = 79
+			 Post deckCount = 0
+			 Post discardCount = 26
+FAIL : 4 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 4:
+Pre handCount = 158 	 Post handCount = 157
+			 Post deckCount = 0
+			 Post discardCount = 22
+FAIL : 4 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 4:
+Pre handCount = 77 	 Post handCount = 76
+			 Post deckCount = 0
+			 Post discardCount = 35
+FAIL : 4 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 3:
+Pre handCount = 131 	 Post handCount = 130
+			 Post deckCount = 0
+			 Post discardCount = 64
+FAIL : 3 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 4:
+Pre handCount = 10 	 Post handCount = 8
+			 Post deckCount = 0
+			 Post discardCount = 16
+FAIL : 4 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 4:
+Pre handCount = 85 	 Post handCount = 78
+			 Post deckCount = 0
+			 Post discardCount = 23
+FAIL : 4 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 4:
+Pre handCount = 131 	 Post handCount = 130
+			 Post deckCount = 0
+			 Post discardCount = 49
+FAIL : 4 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 3:
+Pre handCount = 118 	 Post handCount = 117
+			 Post deckCount = 0
+			 Post discardCount = 18
+FAIL : 3 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 1:
+Pre handCount = 25 	 Post handCount = 5
+			 Post deckCount = 0
+			 Post discardCount = 64
+FAIL : 1 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 2:
+Pre handCount = 77 	 Post handCount = 76
+			 Post deckCount = 0
+			 Post discardCount = 11
+FAIL : 2 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 2:
+Pre handCount = 147 	 Post handCount = 119
+			 Post deckCount = 0
+			 Post discardCount = 33
+FAIL : 2 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 1:
+Pre handCount = 55 	 Post handCount = 39
+			 Post deckCount = 0
+			 Post discardCount = 57
+FAIL : 1 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 3:
+Pre handCount = 2 	 Post handCount = 1
+			 Post deckCount = 0
+			 Post discardCount = 30
+FAIL : 3 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 1:
+Pre handCount = 161 	 Post handCount = 136
+			 Post deckCount = 0
+			 Post discardCount = 33
+FAIL : 1 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 3:
+Pre handCount = 125 	 Post handCount = 115
+			 Post deckCount = 0
+			 Post discardCount = 52
+FAIL : 3 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 3:
+Pre handCount = 84 	 Post handCount = 83
+			 Post deckCount = 0
+			 Post discardCount = 45
+FAIL : 3 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 3:
+Pre handCount = 60 	 Post handCount = 59
+			 Post deckCount = 0
+			 Post discardCount = 40
+FAIL : 3 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 2:
+Pre handCount = 36 	 Post handCount = 35
+			 Post deckCount = 0
+			 Post discardCount = 34
+FAIL : 2 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 2:
+Pre handCount = 110 	 Post handCount = 100
+			 Post deckCount = 0
+			 Post discardCount = 26
+FAIL : 2 handCount
+
+TESTS COMPLETED
+File 'dominion.c'
+Lines executed:11.27% of 568
+Branches executed:6.78% of 413
+Taken at least once:6.78% of 413
+Calls executed:6.00% of 100
+Creating 'dominion.c.gcov'
+
+randomtestcard1.c:
+Testing Smithy Card with random tests
+TESTS COMPLETED
+File 'dominion.c'
+Lines executed:14.26% of 568
+Branches executed:8.72% of 413
+Taken at least once:7.99% of 413
+Calls executed:9.00% of 100
+Creating 'dominion.c.gcov'
+
+randomtestcard2.c:
+Testing Council Room Card with random tests
+TESTS COMPLETED
+File 'dominion.c'
+Lines executed:15.85% of 568
+Branches executed:9.69% of 413
+Taken at least once:8.96% of 413
+Calls executed:13.00% of 100
+Creating 'dominion.c.gcov'
+
+dominion.c.gcov:
+        -:    0:Source:dominion.c
+        -:    0:Graph:dominion.gcno
+        -:    0:Data:dominion.gcda
+        -:    0:Runs:3
+        -:    0:Programs:3
+        -:    1:#include "dominion.h"
+        -:    2:#include "dominion_helpers.h"
+        -:    3:#include "rngs.h"
+        -:    4:#include <stdio.h>
+        -:    5:#include <math.h>
+        -:    6:#include <stdlib.h>
+        -:    7:
+function compare called 1997038 returned 100% blocks executed 100%
+  1997038:    8:int compare(const void* a, const void* b) {
+  1997038:    9:	if (*(int*)a > *(int*)b)
+branch  0 taken 50% (fallthrough)
+branch  1 taken 50%
+  1005245:   10:		return 1;
+   991793:   11:	if (*(int*)a < *(int*)b)
+branch  0 taken 57% (fallthrough)
+branch  1 taken 43%
+   561987:   12:		return -1;
+   429806:   13:	return 0;
+        -:   14:}
+        -:   15:
+function newGame called 0 returned 0% blocks executed 0%
+    #####:   16:struct gameState* newGame() {
+    #####:   17:	struct gameState* g = malloc(sizeof(struct gameState));
+    #####:   18:	return g;
+        -:   19:}
+        -:   20:
+function kingdomCards called 0 returned 0% blocks executed 0%
+    #####:   21:int* kingdomCards(int k1, int k2, int k3, int k4, int k5, int k6, int k7,
+        -:   22:		int k8, int k9, int k10) {
+    #####:   23:	int* k = malloc(10 * sizeof(int));
+    #####:   24:	k[0] = k1;
+    #####:   25:	k[1] = k2;
+    #####:   26:	k[2] = k3;
+    #####:   27:	k[3] = k4;
+    #####:   28:	k[4] = k5;
+    #####:   29:	k[5] = k6;
+    #####:   30:	k[6] = k7;
+    #####:   31:	k[7] = k8;
+    #####:   32:	k[8] = k9;
+    #####:   33:	k[9] = k10;
+    #####:   34:	return k;
+        -:   35:}
+        -:   36:
+function initializeGame called 0 returned 0% blocks executed 0%
+    #####:   37:int initializeGame(int numPlayers, int kingdomCards[10], int randomSeed,
+        -:   38:		struct gameState *state) {
+        -:   39:
+        -:   40:	int i;
+        -:   41:	int j;
+        -:   42:	int it;			
+        -:   43:	//set up random number generator
+    #####:   44:	SelectStream(1);
+call    0 never executed
+    #####:   45:	PutSeed((long)randomSeed);
+call    0 never executed
+        -:   46:
+        -:   47:	//check number of players
+    #####:   48:	if (numPlayers > MAX_PLAYERS || numPlayers < 2)
+branch  0 never executed
+branch  1 never executed
+branch  2 never executed
+branch  3 never executed
+        -:   49:	{
+    #####:   50:		return -1;
+        -:   51:	}
+        -:   52:
+        -:   53:	//set number of players
+    #####:   54:	state->numPlayers = numPlayers;
+        -:   55:
+        -:   56:	//check selected kingdom cards are different
+    #####:   57:	for (i = 0; i < 10; i++)
+branch  0 never executed
+branch  1 never executed
+        -:   58:	{
+    #####:   59:		for (j = 0; j < 10; j++)
+branch  0 never executed
+branch  1 never executed
+        -:   60:		{
+    #####:   61:			if (j != i && kingdomCards[j] == kingdomCards[i])
+branch  0 never executed
+branch  1 never executed
+branch  2 never executed
+branch  3 never executed
+        -:   62:			{
+    #####:   63:				return -1;
+        -:   64:			}
+        -:   65:		}
+        -:   66:	}
+        -:   67:
+        -:   68:
+        -:   69:	//initialize supply
+        -:   70:	///////////////////////////////
+        -:   71:
+        -:   72:	//set number of Curse cards
+    #####:   73:	if (numPlayers == 2)
+branch  0 never executed
+branch  1 never executed
+        -:   74:	{
+    #####:   75:		state->supplyCount[curse] = 10;
+        -:   76:	}
+    #####:   77:	else if (numPlayers == 3)
+branch  0 never executed
+branch  1 never executed
+        -:   78:	{
+    #####:   79:		state->supplyCount[curse] = 20;
+        -:   80:	}
+        -:   81:	else
+        -:   82:	{
+    #####:   83:		state->supplyCount[curse] = 30;
+        -:   84:	}
+        -:   85:
+        -:   86:	//set number of Victory cards
+    #####:   87:	if (numPlayers == 2)
+branch  0 never executed
+branch  1 never executed
+        -:   88:	{
+    #####:   89:		state->supplyCount[estate] = 8;
+    #####:   90:		state->supplyCount[duchy] = 8;
+    #####:   91:		state->supplyCount[province] = 8;
+        -:   92:	}
+        -:   93:	else
+        -:   94:	{
+    #####:   95:		state->supplyCount[estate] = 12;
+    #####:   96:		state->supplyCount[duchy] = 12;
+    #####:   97:		state->supplyCount[province] = 12;
+        -:   98:	}
+        -:   99:
+        -:  100:	//set number of Treasure cards
+    #####:  101:	state->supplyCount[copper] = 60 - (7 * numPlayers);
+    #####:  102:	state->supplyCount[silver] = 40;
+    #####:  103:	state->supplyCount[gold] = 30;
+        -:  104:
+        -:  105:	//set number of Kingdom cards
+    #####:  106:	for (i = adventurer; i <= treasure_map; i++)       	//loop all cards
+branch  0 never executed
+branch  1 never executed
+        -:  107:	{
+    #####:  108:		for (j = 0; j < 10; j++)           		//loop chosen cards
+branch  0 never executed
+branch  1 never executed
+        -:  109:		{
+    #####:  110:			if (kingdomCards[j] == i)
+branch  0 never executed
+branch  1 never executed
+        -:  111:			{
+        -:  112:				//check if card is a 'Victory' Kingdom card
+    #####:  113:				if (kingdomCards[j] == great_hall || kingdomCards[j] == gardens)
+branch  0 never executed
+branch  1 never executed
+branch  2 never executed
+branch  3 never executed
+        -:  114:				{
+    #####:  115:					if (numPlayers == 2){ 
+branch  0 never executed
+branch  1 never executed
+    #####:  116:						state->supplyCount[i] = 8; 
+        -:  117:					}
+    #####:  118:					else{ state->supplyCount[i] = 12; }
+        -:  119:				}
+        -:  120:				else
+        -:  121:				{
+    #####:  122:					state->supplyCount[i] = 10;
+        -:  123:				}
+    #####:  124:				break;
+        -:  125:			}
+        -:  126:			else    //card is not in the set choosen for the game
+        -:  127:			{
+    #####:  128:				state->supplyCount[i] = -1;
+        -:  129:			}
+        -:  130:		}
+        -:  131:
+        -:  132:	}
+        -:  133:
+        -:  134:	////////////////////////
+        -:  135:	//supply intilization complete
+        -:  136:
+        -:  137:	//set player decks
+    #####:  138:	for (i = 0; i < numPlayers; i++)
+branch  0 never executed
+branch  1 never executed
+        -:  139:	{
+    #####:  140:		state->deckCount[i] = 0;
+    #####:  141:		for (j = 0; j < 3; j++)
+branch  0 never executed
+branch  1 never executed
+        -:  142:		{
+    #####:  143:			state->deck[i][j] = estate;
+    #####:  144:			state->deckCount[i]++;
+        -:  145:		}
+    #####:  146:		for (j = 3; j < 10; j++)
+branch  0 never executed
+branch  1 never executed
+        -:  147:		{
+    #####:  148:			state->deck[i][j] = copper;
+    #####:  149:			state->deckCount[i]++;		
+        -:  150:		}
+        -:  151:	}
+        -:  152:
+        -:  153:	//shuffle player decks
+    #####:  154:	for (i = 0; i < numPlayers; i++)
+branch  0 never executed
+branch  1 never executed
+        -:  155:	{
+    #####:  156:		if ( shuffle(i, state) < 0 )
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+        -:  157:		{
+    #####:  158:			return -1;
+        -:  159:		}
+        -:  160:	}
+        -:  161:
+        -:  162:	//draw player hands
+    #####:  163:	for (i = 0; i < numPlayers; i++)
+branch  0 never executed
+branch  1 never executed
+        -:  164:	{  
+        -:  165:		//initialize hand size to zero
+    #####:  166:		state->handCount[i] = 0;
+    #####:  167:		state->discardCount[i] = 0;
+        -:  168:		//draw 5 cards
+        -:  169:		// for (j = 0; j < 5; j++)
+        -:  170:		//	{
+        -:  171:		//	  drawCard(i, state);
+        -:  172:		//	}
+        -:  173:	}
+        -:  174:
+        -:  175:	//set embargo tokens to 0 for all supply piles
+    #####:  176:	for (i = 0; i <= treasure_map; i++)
+branch  0 never executed
+branch  1 never executed
+        -:  177:	{
+    #####:  178:		state->embargoTokens[i] = 0;
+        -:  179:	}
+        -:  180:
+        -:  181:	//initialize first player's turn
+    #####:  182:	state->outpostPlayed = 0;
+    #####:  183:	state->phase = 0;
+    #####:  184:	state->numActions = 1;
+    #####:  185:	state->numBuys = 1;
+    #####:  186:	state->playedCardCount = 0;
+    #####:  187:	state->whoseTurn = 0;
+    #####:  188:	state->handCount[state->whoseTurn] = 0;
+        -:  189:	//int it; move to top
+        -:  190:
+        -:  191:	//Moved draw cards to here, only drawing at the start of a turn
+    #####:  192:	for (it = 0; it < 5; it++){
+branch  0 never executed
+branch  1 never executed
+    #####:  193:		drawCard(state->whoseTurn, state);
+call    0 never executed
+        -:  194:	}
+        -:  195:
+    #####:  196:	updateCoins(state->whoseTurn, state, 0);
+call    0 never executed
+        -:  197:
+    #####:  198:	return 0;
+        -:  199:}
+        -:  200:
+function shuffle called 11857 returned 100% blocks executed 100%
+    11857:  201:int shuffle(int player, struct gameState *state) {
+        -:  202:
+        -:  203:
+        -:  204:	int newDeck[MAX_DECK];
+    11857:  205:	int newDeckPos = 0;
+        -:  206:	int card;
+        -:  207:	int i;
+        -:  208:
+    11857:  209:	if (state->deckCount[player] < 1)
+branch  0 taken 62% (fallthrough)
+branch  1 taken 38%
+     7402:  210:		return -1;
+     4455:  211:	qsort ((void*)(state->deck[player]), state->deckCount[player], sizeof(int), compare); 
+call    0 returned 100%
+        -:  212:	/* SORT CARDS IN DECK TO ENSURE DETERMINISM! */
+        -:  213:
+   378171:  214:	while (state->deckCount[player] > 0) {
+branch  0 taken 99%
+branch  1 taken 1% (fallthrough)
+   369261:  215:		card = floor(Random() * state->deckCount[player]);
+call    0 returned 100%
+   369261:  216:		newDeck[newDeckPos] = state->deck[player][card];
+   369261:  217:		newDeckPos++;
+ 10517959:  218:		for (i = card; i < state->deckCount[player]-1; i++) {
+branch  0 taken 96%
+branch  1 taken 4% (fallthrough)
+ 10148698:  219:			state->deck[player][i] = state->deck[player][i+1];
+        -:  220:		}
+   369261:  221:		state->deckCount[player]--;
+        -:  222:	}
+   373716:  223:	for (i = 0; i < newDeckPos; i++) {
+branch  0 taken 99%
+branch  1 taken 1% (fallthrough)
+   369261:  224:		state->deck[player][i] = newDeck[i];
+   369261:  225:		state->deckCount[player]++;
+        -:  226:	}
+        -:  227:
+     4455:  228:	return 0;
+        -:  229:}
+        -:  230:
+function playCard called 0 returned 0% blocks executed 0%
+    #####:  231:int playCard(int handPos, int choice1, int choice2, int choice3, struct gameState *state) 
+        -:  232:{	
+        -:  233:	int card;
+    #####:  234:	int coin_bonus = 0; 		//tracks coins gain from actions
+        -:  235:
+        -:  236:	//check if it is the right phase
+    #####:  237:	if (state->phase != 0)
+branch  0 never executed
+branch  1 never executed
+        -:  238:	{
+    #####:  239:		return -1;
+        -:  240:	}
+        -:  241:
+        -:  242:	//check if player has enough actions
+    #####:  243:	if ( state->numActions < 1 )
+branch  0 never executed
+branch  1 never executed
+        -:  244:	{
+    #####:  245:		return -1;
+        -:  246:	}
+        -:  247:
+        -:  248:	//get card played
+    #####:  249:	card = handCard(handPos, state);
+call    0 never executed
+        -:  250:
+        -:  251:	//check if selected card is an action
+    #####:  252:	if ( card < adventurer || card > treasure_map )
+branch  0 never executed
+branch  1 never executed
+branch  2 never executed
+branch  3 never executed
+        -:  253:	{
+    #####:  254:		return -1;
+        -:  255:	}
+        -:  256:
+        -:  257:	//play card
+    #####:  258:	if ( cardEffect(card, choice1, choice2, choice3, state, handPos, &coin_bonus) < 0 )
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+        -:  259:	{
+    #####:  260:		return -1;
+        -:  261:	}
+        -:  262:
+        -:  263:	//reduce number of actions
+    #####:  264:	state->numActions--;
+        -:  265:
+        -:  266:	//update coins (Treasure cards may be added with card draws)
+    #####:  267:	updateCoins(state->whoseTurn, state, coin_bonus);
+call    0 never executed
+        -:  268:
+    #####:  269:	return 0;
+        -:  270:}
+        -:  271:
+function buyCard called 0 returned 0% blocks executed 0%
+    #####:  272:int buyCard(int supplyPos, struct gameState *state) {
+        -:  273:	int who;
+        -:  274:	if (DEBUG){
+        -:  275:		printf("Entering buyCard...\n");
+        -:  276:	}
+        -:  277:
+        -:  278:	// I don't know what to do about the phase thing.
+        -:  279:
+    #####:  280:	who = state->whoseTurn;
+        -:  281:
+    #####:  282:	if (state->numBuys < 1){
+branch  0 never executed
+branch  1 never executed
+        -:  283:		if (DEBUG)
+        -:  284:			printf("You do not have any buys left\n");
+    #####:  285:		return -1;
+    #####:  286:	} else if (supplyCount(supplyPos, state) <1){
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+        -:  287:		if (DEBUG)
+        -:  288:			printf("There are not any of that type of card left\n");
+    #####:  289:		return -1;
+    #####:  290:	} else if (state->coins < getCost(supplyPos)){
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+        -:  291:		if (DEBUG) 
+        -:  292:			printf("You do not have enough money to buy that. You have %d coins.\n", state->coins);
+    #####:  293:		return -1;
+        -:  294:	} else {
+    #####:  295:		state->phase=1;
+        -:  296:		//state->supplyCount[supplyPos]--;
+    #####:  297:		gainCard(supplyPos, state, 0, who); //card goes in discard, this might be wrong.. (2 means goes into hand, 0 goes into discard)
+call    0 never executed
+        -:  298:
+    #####:  299:		state->coins = (state->coins) - (getCost(supplyPos));
+call    0 never executed
+    #####:  300:		state->numBuys--;
+        -:  301:		if (DEBUG)
+        -:  302:			printf("You bought card number %d for %d coins. You now have %d buys and %d coins.\n", supplyPos, getCost(supplyPos), state->numBuys, state->coins);
+        -:  303:	}
+        -:  304:
+        -:  305:	//state->discard[who][state->discardCount[who]] = supplyPos;
+        -:  306:	//state->discardCount[who]++;
+        -:  307:
+    #####:  308:	return 0;
+        -:  309:}
+        -:  310:
+function numHandCards called 0 returned 0% blocks executed 0%
+    #####:  311:int numHandCards(struct gameState *state) {
+    #####:  312:	return state->handCount[ whoseTurn(state) ];
+call    0 never executed
+        -:  313:}
+        -:  314:
+function handCard called 0 returned 0% blocks executed 0%
+    #####:  315:int handCard(int handPos, struct gameState *state) {
+    #####:  316:	int currentPlayer = whoseTurn(state);
+call    0 never executed
+    #####:  317:	return state->hand[currentPlayer][handPos];
+        -:  318:}
+        -:  319:
+function supplyCount called 0 returned 0% blocks executed 0%
+    #####:  320:int supplyCount(int card, struct gameState *state) {
+    #####:  321:	return state->supplyCount[card];
+        -:  322:}
+        -:  323:
+function fullDeckCount called 0 returned 0% blocks executed 0%
+    #####:  324:int fullDeckCount(int player, int card, struct gameState *state) {
+        -:  325:	int i;
+    #####:  326:	int count = 0;
+        -:  327:
+    #####:  328:	for (i = 0; i < state->deckCount[player]; i++)
+branch  0 never executed
+branch  1 never executed
+        -:  329:	{
+    #####:  330:		if (state->deck[player][i] == card) count++;
+branch  0 never executed
+branch  1 never executed
+        -:  331:	}
+        -:  332:
+    #####:  333:	for (i = 0; i < state->handCount[player]; i++)
+branch  0 never executed
+branch  1 never executed
+        -:  334:	{
+    #####:  335:		if (state->hand[player][i] == card) count++;
+branch  0 never executed
+branch  1 never executed
+        -:  336:	}
+        -:  337:
+    #####:  338:	for (i = 0; i < state->discardCount[player]; i++)
+branch  0 never executed
+branch  1 never executed
+        -:  339:	{
+    #####:  340:		if (state->discard[player][i] == card) count++;
+branch  0 never executed
+branch  1 never executed
+        -:  341:	}
+        -:  342:
+    #####:  343:	return count;
+        -:  344:}
+        -:  345:
+function whoseTurn called 60000 returned 100% blocks executed 100%
+    60000:  346:int whoseTurn(struct gameState *state) {
+    60000:  347:	return state->whoseTurn;
+        -:  348:}
+        -:  349:
+function endTurn called 0 returned 0% blocks executed 0%
+    #####:  350:int endTurn(struct gameState *state) {
+        -:  351:	int k;
+        -:  352:	int i;
+    #####:  353:	int currentPlayer = whoseTurn(state);
+call    0 never executed
+        -:  354:
+        -:  355:	//Discard hand
+    #####:  356:	for (i = 0; i < state->handCount[currentPlayer]; i++){
+branch  0 never executed
+branch  1 never executed
+    #####:  357:		state->discard[currentPlayer][state->discardCount[currentPlayer]++] = state->hand[currentPlayer][i];//Discard
+    #####:  358:		state->hand[currentPlayer][i] = -1;//Set card to -1
+        -:  359:	}
+    #####:  360:	state->handCount[currentPlayer] = 0;//Reset hand count
+        -:  361:
+        -:  362:	//Code for determining the player
+    #####:  363:	if (currentPlayer < (state->numPlayers - 1)){ 
+branch  0 never executed
+branch  1 never executed
+    #####:  364:		state->whoseTurn = currentPlayer + 1;//Still safe to increment
+        -:  365:	}
+        -:  366:	else{
+    #####:  367:		state->whoseTurn = 0;//Max player has been reached, loop back around to player 1
+        -:  368:	}
+        -:  369:
+    #####:  370:	state->outpostPlayed = 0;
+    #####:  371:	state->phase = 0;
+    #####:  372:	state->numActions = 1;
+    #####:  373:	state->coins = 0;
+    #####:  374:	state->numBuys = 1;
+    #####:  375:	state->playedCardCount = 0;
+    #####:  376:	state->handCount[state->whoseTurn] = 0;
+        -:  377:
+        -:  378:	//int k; move to top
+        -:  379:	//Next player draws hand
+    #####:  380:	for (k = 0; k < 5; k++){
+branch  0 never executed
+branch  1 never executed
+    #####:  381:		drawCard(state->whoseTurn, state);//Draw a card
+call    0 never executed
+        -:  382:	}
+        -:  383:
+        -:  384:	//Update money
+    #####:  385:	updateCoins(state->whoseTurn, state , 0);
+call    0 never executed
+        -:  386:
+    #####:  387:	return 0;
+        -:  388:}
+        -:  389:
+function isGameOver called 0 returned 0% blocks executed 0%
+    #####:  390:int isGameOver(struct gameState *state) {
+        -:  391:	int i;
+        -:  392:	int j;
+        -:  393:
+        -:  394:	//if stack of Province cards is empty, the game ends
+    #####:  395:	if (state->supplyCount[province] == 0)
+branch  0 never executed
+branch  1 never executed
+        -:  396:	{
+    #####:  397:		return 1;
+        -:  398:	}
+        -:  399:
+        -:  400:	//if three supply pile are at 0, the game ends
+    #####:  401:	j = 0;
+    #####:  402:	for (i = 0; i < 25; i++)
+branch  0 never executed
+branch  1 never executed
+        -:  403:	{
+    #####:  404:		if (state->supplyCount[i] == 0)
+branch  0 never executed
+branch  1 never executed
+        -:  405:		{
+    #####:  406:			j++;
+        -:  407:		}
+        -:  408:	}
+    #####:  409:	if ( j >= 3)
+branch  0 never executed
+branch  1 never executed
+        -:  410:	{
+    #####:  411:		return 1;
+        -:  412:	}
+        -:  413:
+    #####:  414:	return 0;
+        -:  415:}
+        -:  416:
+function scoreFor called 0 returned 0% blocks executed 0%
+    #####:  417:int scoreFor (int player, struct gameState *state) {
+        -:  418:
+        -:  419:	int i;
+    #####:  420:	int score = 0;
+        -:  421:	//score from hand
+    #####:  422:	for (i = 0; i < state->handCount[player]; i++)
+branch  0 never executed
+branch  1 never executed
+        -:  423:	{
+    #####:  424:		if (state->hand[player][i] == curse) { score = score - 1; };
+branch  0 never executed
+branch  1 never executed
+    #####:  425:		if (state->hand[player][i] == estate) { score = score + 1; };
+branch  0 never executed
+branch  1 never executed
+    #####:  426:		if (state->hand[player][i] == duchy) { score = score + 3; };
+branch  0 never executed
+branch  1 never executed
+    #####:  427:		if (state->hand[player][i] == province) { score = score + 6; };
+branch  0 never executed
+branch  1 never executed
+    #####:  428:		if (state->hand[player][i] == great_hall) { score = score + 1; };
+branch  0 never executed
+branch  1 never executed
+    #####:  429:		if (state->hand[player][i] == gardens) { score = score + ( fullDeckCount(player, 0, state) / 10 ); };
+branch  0 never executed
+branch  1 never executed
+call    2 never executed
+        -:  430:	}
+        -:  431:
+        -:  432:	//score from discard
+    #####:  433:	for (i = 0; i < state->discardCount[player]; i++)
+branch  0 never executed
+branch  1 never executed
+        -:  434:	{
+    #####:  435:		if (state->discard[player][i] == curse) { score = score - 1; };
+branch  0 never executed
+branch  1 never executed
+    #####:  436:		if (state->discard[player][i] == estate) { score = score + 1; };
+branch  0 never executed
+branch  1 never executed
+    #####:  437:		if (state->discard[player][i] == duchy) { score = score + 3; };
+branch  0 never executed
+branch  1 never executed
+    #####:  438:		if (state->discard[player][i] == province) { score = score + 6; };
+branch  0 never executed
+branch  1 never executed
+    #####:  439:		if (state->discard[player][i] == great_hall) { score = score + 1; };
+branch  0 never executed
+branch  1 never executed
+    #####:  440:		if (state->discard[player][i] == gardens) { score = score + ( fullDeckCount(player, 0, state) / 10 ); };
+branch  0 never executed
+branch  1 never executed
+call    2 never executed
+        -:  441:	}
+        -:  442:
+        -:  443:	//score from deck
+    #####:  444:	for (i = 0; i < state->discardCount[player]; i++)
+branch  0 never executed
+branch  1 never executed
+        -:  445:	{
+    #####:  446:		if (state->deck[player][i] == curse) { score = score - 1; };
+branch  0 never executed
+branch  1 never executed
+    #####:  447:		if (state->deck[player][i] == estate) { score = score + 1; };
+branch  0 never executed
+branch  1 never executed
+    #####:  448:		if (state->deck[player][i] == duchy) { score = score + 3; };
+branch  0 never executed
+branch  1 never executed
+    #####:  449:		if (state->deck[player][i] == province) { score = score + 6; };
+branch  0 never executed
+branch  1 never executed
+    #####:  450:		if (state->deck[player][i] == great_hall) { score = score + 1; };
+branch  0 never executed
+branch  1 never executed
+    #####:  451:		if (state->deck[player][i] == gardens) { score = score + ( fullDeckCount(player, 0, state) / 10 ); };
+branch  0 never executed
+branch  1 never executed
+call    2 never executed
+        -:  452:	}
+        -:  453:
+    #####:  454:	return score;
+        -:  455:}
+        -:  456:
+function getWinners called 0 returned 0% blocks executed 0%
+    #####:  457:int getWinners(int players[MAX_PLAYERS], struct gameState *state) {
+        -:  458:	int i;	
+        -:  459:	int j;
+        -:  460:	int highScore;
+        -:  461:	int currentPlayer;
+        -:  462:
+        -:  463:	//get score for each player
+    #####:  464:	for (i = 0; i < MAX_PLAYERS; i++)
+branch  0 never executed
+branch  1 never executed
+        -:  465:	{
+        -:  466:		//set unused player scores to -9999
+    #####:  467:		if (i >= state->numPlayers)
+branch  0 never executed
+branch  1 never executed
+        -:  468:		{
+    #####:  469:			players[i] = -9999;
+        -:  470:		}
+        -:  471:		else
+        -:  472:		{
+    #####:  473:			players[i] = scoreFor (i, state);
+call    0 never executed
+        -:  474:		}
+        -:  475:	}
+        -:  476:
+        -:  477:	//find highest score
+    #####:  478:	j = 0;
+    #####:  479:	for (i = 0; i < MAX_PLAYERS; i++)
+branch  0 never executed
+branch  1 never executed
+        -:  480:	{
+    #####:  481:		if (players[i] > players[j])
+branch  0 never executed
+branch  1 never executed
+        -:  482:		{
+    #####:  483:			j = i;
+        -:  484:		}
+        -:  485:	}
+    #####:  486:	highScore = players[j];
+        -:  487:
+        -:  488:	//add 1 to players who had less turns
+    #####:  489:	currentPlayer = whoseTurn(state);
+call    0 never executed
+    #####:  490:	for (i = 0; i < MAX_PLAYERS; i++)
+branch  0 never executed
+branch  1 never executed
+        -:  491:	{
+    #####:  492:		if ( players[i] == highScore && i > currentPlayer )
+branch  0 never executed
+branch  1 never executed
+branch  2 never executed
+branch  3 never executed
+        -:  493:		{
+    #####:  494:			players[i]++;
+        -:  495:		}
+        -:  496:	}
+        -:  497:
+        -:  498:	//find new highest score
+    #####:  499:	j = 0;
+    #####:  500:	for (i = 0; i < MAX_PLAYERS; i++)
+branch  0 never executed
+branch  1 never executed
+        -:  501:	{
+    #####:  502:		if ( players[i] > players[j] )
+branch  0 never executed
+branch  1 never executed
+        -:  503:		{
+    #####:  504:			j = i;
+        -:  505:		}
+        -:  506:	}
+    #####:  507:	highScore = players[j];
+        -:  508:
+        -:  509:	//set winners in array to 1 and rest to 0
+    #####:  510:	for (i = 0; i < MAX_PLAYERS; i++)
+branch  0 never executed
+branch  1 never executed
+        -:  511:	{
+    #####:  512:		if ( players[i] == highScore )
+branch  0 never executed
+branch  1 never executed
+        -:  513:		{
+    #####:  514:			players[i] = 1;
+        -:  515:		}
+        -:  516:		else
+        -:  517:		{
+    #####:  518:			players[i] = 0;
+        -:  519:		}
+        -:  520:	}
+        -:  521:
+    #####:  522:	return 0;
+        -:  523:}
+        -:  524:
+function drawCard called 754897 returned 100% blocks executed 100%
+   754897:  525:int drawCard(int player, struct gameState *state)
+        -:  526:{	int count;
+        -:  527:	int deckCounter;
+   754897:  528:	if (state->deckCount[player] <= 0){//Deck is empty
+branch  0 taken 1% (fallthrough)
+branch  1 taken 99%
+        -:  529:
+        -:  530:		//Step 1 Shuffle the discard pile back into a deck
+        -:  531:		int i;
+        -:  532:		//Move discard to deck
+   375938:  533:		for (i = 0; i < state->discardCount[player];i++){
+branch  0 taken 98%
+branch  1 taken 2% (fallthrough)
+   369261:  534:			state->deck[player][i] = state->discard[player][i];
+   369261:  535:			state->discard[player][i] = -1;
+        -:  536:		}
+        -:  537:
+     6677:  538:		state->deckCount[player] = state->discardCount[player];
+     6677:  539:		state->discardCount[player] = 0;//Reset discard
+        -:  540:
+        -:  541:		//Shufffle the deck
+     6677:  542:		shuffle(player, state);//Shuffle the deck up and make it so that we can draw
+call    0 returned 100%
+        -:  543:
+        -:  544:		if (DEBUG){//Debug statements
+        -:  545:			printf("Deck count now: %d\n", state->deckCount[player]);
+        -:  546:		}
+        -:  547:
+     6677:  548:		state->discardCount[player] = 0;
+        -:  549:
+        -:  550:		//Step 2 Draw Card
+     6677:  551:		count = state->handCount[player];//Get current player's hand count
+        -:  552:
+        -:  553:		if (DEBUG){//Debug statements
+        -:  554:			printf("Current hand count: %d\n", count);
+        -:  555:		}
+        -:  556:
+     6677:  557:		deckCounter = state->deckCount[player];//Create a holder for the deck count
+        -:  558:
+     6677:  559:		if (deckCounter == 0)
+branch  0 taken 33% (fallthrough)
+branch  1 taken 67%
+     2222:  560:			return -1;
+        -:  561:
+     4455:  562:		state->hand[player][count] = state->deck[player][deckCounter - 1];//Add card to hand
+     4455:  563:		state->deckCount[player]--;
+     4455:  564:		state->handCount[player]++;//Increment hand count
+        -:  565:	}
+        -:  566:
+        -:  567:	else{
+   748220:  568:		int count = state->handCount[player];//Get current hand count for player
+        -:  569:		int deckCounter;
+        -:  570:		if (DEBUG){//Debug statements
+        -:  571:			printf("Current hand count: %d\n", count);
+        -:  572:		}
+        -:  573:
+   748220:  574:		deckCounter = state->deckCount[player];//Create holder for the deck count
+   748220:  575:		state->hand[player][count] = state->deck[player][deckCounter - 1];//Add card to the hand
+   748220:  576:		state->deckCount[player]--;
+   748220:  577:		state->handCount[player]++;//Increment hand count
+        -:  578:	}
+        -:  579:
+   752675:  580:	return 0;
+        -:  581:}
+        -:  582:
+function getCost called 0 returned 0% blocks executed 0%
+    #####:  583:int getCost(int cardNumber)
+        -:  584:{
+    #####:  585:	switch( cardNumber ) 
+branch  0 never executed
+branch  1 never executed
+branch  2 never executed
+branch  3 never executed
+branch  4 never executed
+branch  5 never executed
+branch  6 never executed
+branch  7 never executed
+branch  8 never executed
+branch  9 never executed
+branch 10 never executed
+branch 11 never executed
+branch 12 never executed
+branch 13 never executed
+branch 14 never executed
+branch 15 never executed
+branch 16 never executed
+branch 17 never executed
+branch 18 never executed
+branch 19 never executed
+branch 20 never executed
+branch 21 never executed
+branch 22 never executed
+branch 23 never executed
+branch 24 never executed
+branch 25 never executed
+branch 26 never executed
+branch 27 never executed
+        -:  586:	{
+        -:  587:		case curse:
+    #####:  588:			return 0;
+        -:  589:		case estate:
+    #####:  590:			return 2;
+        -:  591:		case duchy:
+    #####:  592:			return 5;
+        -:  593:		case province:
+    #####:  594:			return 8;
+        -:  595:		case copper:
+    #####:  596:			return 0;
+        -:  597:		case silver:
+    #####:  598:			return 3;
+        -:  599:		case gold:
+    #####:  600:			return 6;
+        -:  601:		case adventurer:
+    #####:  602:			return 6;
+        -:  603:		case council_room:
+    #####:  604:			return 5;
+        -:  605:		case feast:
+    #####:  606:			return 4;
+        -:  607:		case gardens:
+    #####:  608:			return 4;
+        -:  609:		case mine:
+    #####:  610:			return 5;
+        -:  611:		case remodel:
+    #####:  612:			return 4;
+        -:  613:		case smithy:
+    #####:  614:			return 4;
+        -:  615:		case village:
+    #####:  616:			return 3;
+        -:  617:		case baron:
+    #####:  618:			return 4;
+        -:  619:		case great_hall:
+    #####:  620:			return 3;
+        -:  621:		case minion:
+    #####:  622:			return 5;
+        -:  623:		case steward:
+    #####:  624:			return 3;
+        -:  625:		case tribute:
+    #####:  626:			return 5;
+        -:  627:		case ambassador:
+    #####:  628:			return 3;
+        -:  629:		case cutpurse:
+    #####:  630:			return 4;
+        -:  631:		case embargo: 
+    #####:  632:			return 2;
+        -:  633:		case outpost:
+    #####:  634:			return 5;
+        -:  635:		case salvager:
+    #####:  636:			return 4;
+        -:  637:		case sea_hag:
+    #####:  638:			return 4;
+        -:  639:		case treasure_map:
+    #####:  640:			return 4;
+        -:  641:	}
+        -:  642:
+    #####:  643:	return -1;
+        -:  644:}
+        -:  645:
+        -:  646:
+        -:  647:// Collection of a few refactored card functions to fulfil 
+        -:  648:// the requirements of CS362 Assignment 2.
+        -:  649:////////////////////////////////////////////////////////////
+        -:  650:
+function actionSmithy called 20000 returned 100% blocks executed 100%
+    20000:  651:int actionSmithy(struct gameState *state, int handPos) {
+        -:  652:	int i;
+    20000:  653:	int currentPlayer = whoseTurn(state);
+call    0 returned 100%
+        -:  654:
+        -:  655:	//+3 Cards
+   100000:  656:	for (i = 0; i <= 3; i++)
+branch  0 taken 80%
+branch  1 taken 20% (fallthrough)
+        -:  657:	{
+    80000:  658:		drawCard(currentPlayer, state);
+call    0 returned 100%
+        -:  659:	}
+        -:  660:
+        -:  661:	//discard card from hand
+    20000:  662:	discardCard(handPos, currentPlayer, state, 0);
+call    0 returned 100%
+        -:  663:
+    20000:  664:	return 0;
+        -:  665:}
+        -:  666:
+function actionAdventurer called 20000 returned 100% blocks executed 100%
+    20000:  667:int actionAdventurer(struct gameState *state, int handPos) {
+    20000:  668:	int currentPlayer = whoseTurn(state);
+call    0 returned 100%
+    20000:  669:	int drawnTreasure = 0;
+        -:  670:	int cardDrawn;
+        -:  671:	int tempHand[MAX_HAND];
+    20000:  672:	int z = 0;// this is the counter for the temp hand
+        -:  673:
+   554897:  674:	while(drawnTreasure < 2){
+branch  0 taken 96%
+branch  1 taken 4% (fallthrough)
+        -:  675:		//if the deck is empty we need to shuffle discard and add to deck
+        -:  676:		
+   514897:  677:		if (state->deckCount[currentPlayer] < 1){			
+branch  0 taken 1% (fallthrough)
+branch  1 taken 99%
+     5180:  678:			shuffle(currentPlayer, state);
+call    0 returned 100%
+        -:  679:		}
+   514897:  680:		drawCard(currentPlayer, state);
+call    0 returned 100%
+        -:  681:		
+        -:  682:		//top card of hand is most recently drawn card.
+   514897:  683:		cardDrawn = state->hand[currentPlayer][state->handCount[currentPlayer] - 1];
+        -:  684:
+   514897:  685:		if (cardDrawn == silver || cardDrawn == gold)
+branch  0 taken 96% (fallthrough)
+branch  1 taken 4%
+branch  2 taken 4% (fallthrough)
+branch  3 taken 96%
+    40000:  686:			drawnTreasure++;
+        -:  687:		else{
+   474897:  688:			tempHand[z] = cardDrawn;
+        -:  689:
+        -:  690:			//this should just remove the top card (the most recently drawn one).
+   474897:  691:			state->handCount[currentPlayer]--; 			
+   474897:  692:			z++;
+        -:  693:		}
+        -:  694:	}
+        -:  695:
+   514897:  696:	while(z - 1 >= 0){ // discard all cards in play that have been drawn
+branch  0 taken 96%
+branch  1 taken 4% (fallthrough)
+   474897:  697:		state->discard[currentPlayer][ state->discardCount[currentPlayer]++ ] = tempHand[z - 1];
+   474897:  698:		z--;
+        -:  699:	}
+        -:  700:
+    20000:  701:	return 0;
+        -:  702:}
+        -:  703:
+function actionCouncilRoom called 20000 returned 100% blocks executed 100%
+    20000:  704:int actionCouncilRoom(struct gameState *state, int handPos) {
+        -:  705:	int i;
+    20000:  706:	int currentPlayer = whoseTurn(state);
+call    0 returned 100%
+        -:  707:
+        -:  708:	//+4 Cards
+   100000:  709:	for (i = 0; i < 4; i++)
+branch  0 taken 80%
+branch  1 taken 20% (fallthrough)
+        -:  710:	{
+    80000:  711:		drawCard(currentPlayer, state);
+call    0 returned 100%
+        -:  712:	}
+        -:  713:
+        -:  714:	//+1 Buy
+    20000:  715:	state->numBuys++;
+        -:  716:
+        -:  717:	//Each other player draws a card
+   100000:  718:	for (i = 0; i < state->numPlayers; i++)
+branch  0 taken 80%
+branch  1 taken 20% (fallthrough)
+        -:  719:	{
+    80000:  720:		drawCard(i, state);
+call    0 returned 100%
+        -:  721:	}
+        -:  722:
+        -:  723:	//put played card in played card pile
+    20000:  724:	discardCard(handPos, currentPlayer, state, 0);
+call    0 returned 100%
+        -:  725:
+    20000:  726:	return 0;
+        -:  727:}
+        -:  728:
+function actionFeast called 0 returned 0% blocks executed 0%
+    #####:  729:int actionFeast(struct gameState *state, int handPos, int choice1) {
+    #####:  730:	int i = 0;
+    #####:  731:	int x = 0;
+    #####:  732:	int currentPlayer = whoseTurn(state);
+call    0 never executed
+        -:  733:	int tempHand[MAX_HAND];
+        -:  734:
+        -:  735:	//gain card with cost up to 5
+        -:  736:	//Backup hand
+    #####:  737:	for (i = 0; i <= state->handCount[currentPlayer]; i++){
+branch  0 never executed
+branch  1 never executed
+    #####:  738:		tempHand[i] = state->hand[currentPlayer][i];//Backup card
+    #####:  739:		state->hand[currentPlayer][i] = -1;//Set to nothing
+        -:  740:	}
+        -:  741:	//Backup hand
+        -:  742:
+        -:  743:	//Update Coins for Buy
+    #####:  744:	updateCoins(currentPlayer, state, 5);
+call    0 never executed
+    #####:  745:	while( x == 1) {//Buy one card
+branch  0 never executed
+branch  1 never executed
+    #####:  746:		if (supplyCount(choice1, state) <= 0){
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+        -:  747:			if (DEBUG)
+        -:  748:				printf("None of that card left, sorry!\n");
+        -:  749:
+        -:  750:			if (DEBUG){
+        -:  751:				printf("Cards Left: %d\n", supplyCount(choice1, state));
+        -:  752:			}
+        -:  753:		}
+    #####:  754:		else if (state->coins < getCost(choice1)){
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  755:			printf("That card is too expensive!\n");
+call    0 never executed
+        -:  756:
+        -:  757:			if (DEBUG){
+        -:  758:				printf("Coins: %d < %d\n", state->coins, getCost(choice1));
+        -:  759:			}		
+        -:  760:		}
+        -:  761:		else{
+        -:  762:
+        -:  763:			if (DEBUG){
+        -:  764:				printf("Deck Count: %d\n", state->handCount[currentPlayer] + 
+        -:  765:						state->deckCount[currentPlayer] + state->discardCount[currentPlayer]);
+        -:  766:			}
+        -:  767:
+    #####:  768:			gainCard(choice1, state, 0, currentPlayer);//Gain the card
+call    0 never executed
+    #####:  769:			x = 0;//No more buying cards
+        -:  770:
+        -:  771:			if (DEBUG){
+        -:  772:				printf("Deck Count: %d\n", state->handCount[currentPlayer] + 
+        -:  773:						state->deckCount[currentPlayer] + state->discardCount[currentPlayer]);
+        -:  774:			}	
+        -:  775:
+        -:  776:		}
+        -:  777:	}     
+        -:  778:
+        -:  779:	//Reset Hand
+    #####:  780:	for (i = 0; i <= state->handCount[currentPlayer]; i++){
+branch  0 never executed
+branch  1 never executed
+    #####:  781:		state->hand[currentPlayer][i] = tempHand[i];
+    #####:  782:		tempHand[i] = -1;
+        -:  783:	}
+        -:  784:	//Reset Hand
+        -:  785:
+    #####:  786:	return 0;
+        -:  787:}
+        -:  788:
+function actionVillage called 0 returned 0% blocks executed 0%
+    #####:  789:int actionVillage(struct gameState *state, int handPos) {
+    #####:  790:	int currentPlayer = whoseTurn(state);
+call    0 never executed
+        -:  791:
+        -:  792:	//+1 Card
+    #####:  793:	drawCard(currentPlayer, state);
+call    0 never executed
+        -:  794:
+        -:  795:	//+2 Actions
+    #####:  796:	state->numActions = state->numActions + 2;
+        -:  797:
+        -:  798:	//discard played card from hand
+    #####:  799:	discardCard(handPos, currentPlayer, state, 0);
+call    0 never executed
+        -:  800:
+    #####:  801:	return 0;
+        -:  802:}
+        -:  803:
+function cardEffect called 0 returned 0% blocks executed 0%
+    #####:  804:int cardEffect(int card, int choice1, int choice2, int choice3, struct gameState *state, int handPos, int *bonus)
+        -:  805:{
+        -:  806:	int i;
+        -:  807:	int j;
+        -:  808:	int k;
+        -:  809:	int index;
+    #####:  810:	int currentPlayer = whoseTurn(state);
+call    0 never executed
+    #####:  811:	int nextPlayer = currentPlayer + 1;
+        -:  812:
+    #####:  813:	int tributeRevealedCards[2] = {-1, -1};
+    #####:  814:	if (nextPlayer > (state->numPlayers - 1)){
+branch  0 never executed
+branch  1 never executed
+    #####:  815:		nextPlayer = 0;
+        -:  816:	}
+        -:  817:
+        -:  818:
+        -:  819:	//uses switch to select card and perform actions
+    #####:  820:	switch( card ) 
+branch  0 never executed
+branch  1 never executed
+branch  2 never executed
+branch  3 never executed
+branch  4 never executed
+branch  5 never executed
+branch  6 never executed
+branch  7 never executed
+branch  8 never executed
+branch  9 never executed
+branch 10 never executed
+branch 11 never executed
+branch 12 never executed
+branch 13 never executed
+branch 14 never executed
+branch 15 never executed
+branch 16 never executed
+branch 17 never executed
+branch 18 never executed
+branch 19 never executed
+branch 20 never executed
+        -:  821:	{
+        -:  822:		case adventurer:
+    #####:  823:			actionAdventurer(state, handPos);
+call    0 never executed
+    #####:  824:			return 0;
+        -:  825:
+        -:  826:		case council_room:
+    #####:  827:			actionCouncilRoom(state, handPos);		
+call    0 never executed
+    #####:  828:			return 0;
+        -:  829:
+        -:  830:		case feast:
+    #####:  831:			actionFeast(state, handPos, choice1);     			
+call    0 never executed
+    #####:  832:			return 0;
+        -:  833:
+        -:  834:		case gardens:
+    #####:  835:			return -1;
+        -:  836:
+        -:  837:		case mine:
+    #####:  838:			j = state->hand[currentPlayer][choice1];  //store card we will trash
+        -:  839:
+    #####:  840:			if (state->hand[currentPlayer][choice1] < copper || state->hand[currentPlayer][choice1] > gold)
+branch  0 never executed
+branch  1 never executed
+branch  2 never executed
+branch  3 never executed
+        -:  841:			{
+    #####:  842:				return -1;
+        -:  843:			}
+        -:  844:
+    #####:  845:			if (choice2 > treasure_map || choice2 < curse)
+branch  0 never executed
+branch  1 never executed
+branch  2 never executed
+branch  3 never executed
+        -:  846:			{
+    #####:  847:				return -1;
+        -:  848:			}
+        -:  849:
+    #####:  850:			if ( (getCost(state->hand[currentPlayer][choice1]) + 3) > getCost(choice2) )
+call    0 never executed
+call    1 never executed
+branch  2 never executed
+branch  3 never executed
+        -:  851:			{
+    #####:  852:				return -1;
+        -:  853:			}
+        -:  854:
+    #####:  855:			gainCard(choice2, state, 2, currentPlayer);
+call    0 never executed
+        -:  856:
+        -:  857:			//discard card from hand
+    #####:  858:			discardCard(handPos, currentPlayer, state, 0);
+call    0 never executed
+        -:  859:
+        -:  860:			//discard trashed card
+    #####:  861:			for (i = 0; i < state->handCount[currentPlayer]; i++)
+branch  0 never executed
+branch  1 never executed
+        -:  862:			{
+    #####:  863:				if (state->hand[currentPlayer][i] == j)
+branch  0 never executed
+branch  1 never executed
+        -:  864:				{
+    #####:  865:					discardCard(i, currentPlayer, state, 0);			
+call    0 never executed
+    #####:  866:					break;
+        -:  867:				}
+        -:  868:			}
+        -:  869:
+    #####:  870:			return 0;
+        -:  871:
+        -:  872:		case remodel:
+    #####:  873:			j = state->hand[currentPlayer][choice1];  //store card we will trash
+        -:  874:
+    #####:  875:			if ( (getCost(state->hand[currentPlayer][choice1]) + 2) > getCost(choice2) )
+call    0 never executed
+call    1 never executed
+branch  2 never executed
+branch  3 never executed
+        -:  876:			{
+    #####:  877:				return -1;
+        -:  878:			}
+        -:  879:
+    #####:  880:			gainCard(choice2, state, 0, currentPlayer);
+call    0 never executed
+        -:  881:
+        -:  882:			//discard card from hand
+    #####:  883:			discardCard(handPos, currentPlayer, state, 0);
+call    0 never executed
+        -:  884:
+        -:  885:			//discard trashed card
+    #####:  886:			for (i = 0; i < state->handCount[currentPlayer]; i++)
+branch  0 never executed
+branch  1 never executed
+        -:  887:			{
+    #####:  888:				if (state->hand[currentPlayer][i] == j)
+branch  0 never executed
+branch  1 never executed
+        -:  889:				{
+    #####:  890:					discardCard(i, currentPlayer, state, 0);			
+call    0 never executed
+    #####:  891:					break;
+        -:  892:				}
+        -:  893:			}
+        -:  894:
+        -:  895:
+    #####:  896:			return 0;
+        -:  897:
+        -:  898:		case smithy:
+    #####:  899:			actionSmithy(state, handPos);
+call    0 never executed
+    #####:  900:			return 0;
+        -:  901:
+        -:  902:		case village:
+    #####:  903:			actionVillage(state, handPos);
+call    0 never executed
+    #####:  904:			return 0;
+        -:  905:
+        -:  906:		case baron:
+    #####:  907:			state->numBuys++;//Increase buys by 1!
+    #####:  908:			if (choice1 > 0){//Boolean true or going to discard an estate
+branch  0 never executed
+branch  1 never executed
+    #####:  909:				int p = 0;//Iterator for hand!
+    #####:  910:				int card_not_discarded = 1;//Flag for discard set!
+    #####:  911:				while(card_not_discarded){
+branch  0 never executed
+branch  1 never executed
+    #####:  912:					if (state->hand[currentPlayer][p] == estate){//Found an estate card!
+branch  0 never executed
+branch  1 never executed
+    #####:  913:						state->coins += 4;//Add 4 coins to the amount of coins
+    #####:  914:						state->discard[currentPlayer][state->discardCount[currentPlayer]] = state->hand[currentPlayer][p];
+    #####:  915:						state->discardCount[currentPlayer]++;
+    #####:  916:						for (;p < state->handCount[currentPlayer]; p++){
+branch  0 never executed
+branch  1 never executed
+    #####:  917:							state->hand[currentPlayer][p] = state->hand[currentPlayer][p+1];
+        -:  918:						}
+    #####:  919:						state->hand[currentPlayer][state->handCount[currentPlayer]] = -1;
+    #####:  920:						state->handCount[currentPlayer]--;
+    #####:  921:						card_not_discarded = 0;//Exit the loop
+        -:  922:					}
+    #####:  923:					else if (p > state->handCount[currentPlayer]){
+branch  0 never executed
+branch  1 never executed
+        -:  924:						if(DEBUG) {
+        -:  925:							printf("No estate cards in your hand, invalid choice\n");
+        -:  926:							printf("Must gain an estate if there are any\n");
+        -:  927:						}
+    #####:  928:						if (supplyCount(estate, state) > 0){
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  929:							gainCard(estate, state, 0, currentPlayer);
+call    0 never executed
+    #####:  930:							state->supplyCount[estate]--;//Decrement estates
+    #####:  931:							if (supplyCount(estate, state) == 0){
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  932:								isGameOver(state);
+call    0 never executed
+        -:  933:							}
+        -:  934:						}
+    #####:  935:						card_not_discarded = 0;//Exit the loop
+        -:  936:					}
+        -:  937:
+        -:  938:					else{
+    #####:  939:						p++;//Next card
+        -:  940:					}
+        -:  941:				}
+        -:  942:			}
+        -:  943:
+        -:  944:			else{
+    #####:  945:				if (supplyCount(estate, state) > 0){
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  946:					gainCard(estate, state, 0, currentPlayer);//Gain an estate
+call    0 never executed
+    #####:  947:					state->supplyCount[estate]--;//Decrement Estates
+    #####:  948:					if (supplyCount(estate, state) == 0){
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  949:						isGameOver(state);
+call    0 never executed
+        -:  950:					}
+        -:  951:				}
+        -:  952:			}
+        -:  953:
+        -:  954:
+    #####:  955:			return 0;
+        -:  956:
+        -:  957:		case great_hall:
+        -:  958:			//+1 Card
+    #####:  959:			drawCard(currentPlayer, state);
+call    0 never executed
+        -:  960:
+        -:  961:			//+1 Actions
+    #####:  962:			state->numActions++;
+        -:  963:
+        -:  964:			//discard card from hand
+    #####:  965:			discardCard(handPos, currentPlayer, state, 0);
+call    0 never executed
+    #####:  966:			return 0;
+        -:  967:
+        -:  968:		case minion:
+        -:  969:			//+1 action
+    #####:  970:			state->numActions++;
+        -:  971:
+        -:  972:			//discard card from hand
+    #####:  973:			discardCard(handPos, currentPlayer, state, 0);
+call    0 never executed
+        -:  974:
+    #####:  975:			if (choice1)		//+2 coins
+branch  0 never executed
+branch  1 never executed
+        -:  976:			{
+    #####:  977:				state->coins = state->coins + 2;
+        -:  978:			}
+        -:  979:
+    #####:  980:			else if (choice2)		//discard hand, redraw 4, other players with 5+ cards discard hand and draw 4
+branch  0 never executed
+branch  1 never executed
+        -:  981:			{
+        -:  982:				//discard hand
+    #####:  983:				while(numHandCards(state) > 0)
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+        -:  984:				{
+    #####:  985:					discardCard(handPos, currentPlayer, state, 0);
+call    0 never executed
+        -:  986:				}
+        -:  987:
+        -:  988:				//draw 4
+    #####:  989:				for (i = 0; i < 4; i++)
+branch  0 never executed
+branch  1 never executed
+        -:  990:				{
+    #####:  991:					drawCard(currentPlayer, state);
+call    0 never executed
+        -:  992:				}
+        -:  993:
+        -:  994:				//other players discard hand and redraw if hand size > 4
+    #####:  995:				for (i = 0; i < state->numPlayers; i++)
+branch  0 never executed
+branch  1 never executed
+        -:  996:				{
+    #####:  997:					if (i != currentPlayer)
+branch  0 never executed
+branch  1 never executed
+        -:  998:					{
+    #####:  999:						if ( state->handCount[i] > 4 )
+branch  0 never executed
+branch  1 never executed
+        -: 1000:						{
+        -: 1001:							//discard hand
+    #####: 1002:							while( state->handCount[i] > 0 )
+branch  0 never executed
+branch  1 never executed
+        -: 1003:							{
+    #####: 1004:								discardCard(handPos, i, state, 0);
+call    0 never executed
+        -: 1005:							}
+        -: 1006:
+        -: 1007:							//draw 4
+    #####: 1008:							for (j = 0; j < 4; j++)
+branch  0 never executed
+branch  1 never executed
+        -: 1009:							{
+    #####: 1010:								drawCard(i, state);
+call    0 never executed
+        -: 1011:							}
+        -: 1012:						}
+        -: 1013:					}
+        -: 1014:				}
+        -: 1015:
+        -: 1016:			}
+    #####: 1017:			return 0;
+        -: 1018:
+        -: 1019:		case steward:
+    #####: 1020:			if (choice1 == 1)
+branch  0 never executed
+branch  1 never executed
+        -: 1021:			{
+        -: 1022:				//+2 cards
+    #####: 1023:				drawCard(currentPlayer, state);
+call    0 never executed
+    #####: 1024:				drawCard(currentPlayer, state);
+call    0 never executed
+        -: 1025:			}
+    #####: 1026:			else if (choice1 == 2)
+branch  0 never executed
+branch  1 never executed
+        -: 1027:			{
+        -: 1028:				//+2 coins
+    #####: 1029:				state->coins = state->coins + 2;
+        -: 1030:			}
+        -: 1031:			else
+        -: 1032:			{
+        -: 1033:				//trash 2 cards in hand
+    #####: 1034:				discardCard(choice2, currentPlayer, state, 1);
+call    0 never executed
+    #####: 1035:				discardCard(choice3, currentPlayer, state, 1);
+call    0 never executed
+        -: 1036:			}
+        -: 1037:
+        -: 1038:			//discard card from hand
+    #####: 1039:			discardCard(handPos, currentPlayer, state, 0);
+call    0 never executed
+    #####: 1040:			return 0;
+        -: 1041:
+        -: 1042:		case tribute:
+    #####: 1043:			if ((state->discardCount[nextPlayer] + state->deckCount[nextPlayer]) <= 1){
+branch  0 never executed
+branch  1 never executed
+    #####: 1044:				if (state->deckCount[nextPlayer] > 0){
+branch  0 never executed
+branch  1 never executed
+    #####: 1045:					tributeRevealedCards[0] = state->deck[nextPlayer][state->deckCount[nextPlayer]-1];
+    #####: 1046:					state->deckCount[nextPlayer]--;
+        -: 1047:				}
+    #####: 1048:				else if (state->discardCount[nextPlayer] > 0){
+branch  0 never executed
+branch  1 never executed
+    #####: 1049:					tributeRevealedCards[0] = state->discard[nextPlayer][state->discardCount[nextPlayer]-1];
+    #####: 1050:					state->discardCount[nextPlayer]--;
+        -: 1051:				}
+        -: 1052:				else{
+        -: 1053:					//No Card to Reveal
+        -: 1054:					if (DEBUG){
+        -: 1055:						printf("No cards to reveal\n");
+        -: 1056:					}
+        -: 1057:				}
+        -: 1058:			}
+        -: 1059:
+        -: 1060:			else{
+    #####: 1061:				if (state->deckCount[nextPlayer] == 0){
+branch  0 never executed
+branch  1 never executed
+    #####: 1062:					for (i = 0; i < state->discardCount[nextPlayer]; i++){
+branch  0 never executed
+branch  1 never executed
+    #####: 1063:						state->deck[nextPlayer][i] = state->discard[nextPlayer][i];//Move to deck
+    #####: 1064:						state->deckCount[nextPlayer]++;
+    #####: 1065:						state->discard[nextPlayer][i] = -1;
+    #####: 1066:						state->discardCount[nextPlayer]--;
+        -: 1067:					}
+        -: 1068:
+    #####: 1069:					shuffle(nextPlayer,state);//Shuffle the deck
+call    0 never executed
+        -: 1070:				} 
+    #####: 1071:				tributeRevealedCards[0] = state->deck[nextPlayer][state->deckCount[nextPlayer]-1];
+    #####: 1072:				state->deck[nextPlayer][state->deckCount[nextPlayer]--] = -1;
+    #####: 1073:				state->deckCount[nextPlayer]--;
+    #####: 1074:				tributeRevealedCards[1] = state->deck[nextPlayer][state->deckCount[nextPlayer]-1];
+    #####: 1075:				state->deck[nextPlayer][state->deckCount[nextPlayer]--] = -1;
+    #####: 1076:				state->deckCount[nextPlayer]--;
+        -: 1077:			}    
+        -: 1078:
+    #####: 1079:			if (tributeRevealedCards[0] == tributeRevealedCards[1]){//If we have a duplicate card, just drop one 
+branch  0 never executed
+branch  1 never executed
+    #####: 1080:				state->playedCards[state->playedCardCount] = tributeRevealedCards[1];
+    #####: 1081:				state->playedCardCount++;
+    #####: 1082:				tributeRevealedCards[1] = -1;
+        -: 1083:			}
+        -: 1084:
+    #####: 1085:			for (i = 0; i <= 2; i ++){
+branch  0 never executed
+branch  1 never executed
+    #####: 1086:				if (tributeRevealedCards[i] == copper || tributeRevealedCards[i] == silver || tributeRevealedCards[i] == gold){//Treasure cards
+branch  0 never executed
+branch  1 never executed
+branch  2 never executed
+branch  3 never executed
+branch  4 never executed
+branch  5 never executed
+    #####: 1087:					state->coins += 2;
+        -: 1088:				}
+        -: 1089:
+    #####: 1090:				else if (tributeRevealedCards[i] == estate || tributeRevealedCards[i] == duchy || tributeRevealedCards[i] == province || tributeRevealedCards[i] == gardens || tributeRevealedCards[i] == great_hall){//Victory Card Found
+branch  0 never executed
+branch  1 never executed
+branch  2 never executed
+branch  3 never executed
+branch  4 never executed
+branch  5 never executed
+branch  6 never executed
+branch  7 never executed
+branch  8 never executed
+branch  9 never executed
+    #####: 1091:					drawCard(currentPlayer, state);
+call    0 never executed
+    #####: 1092:					drawCard(currentPlayer, state);
+call    0 never executed
+        -: 1093:				}
+        -: 1094:				else{//Action Card
+    #####: 1095:					state->numActions = state->numActions + 2;
+        -: 1096:				}
+        -: 1097:			}
+        -: 1098:
+    #####: 1099:			return 0;
+        -: 1100:
+        -: 1101:		case ambassador:
+    #####: 1102:			j = 0;		//used to check if player has enough cards to discard
+        -: 1103:
+    #####: 1104:			if (choice2 > 2 || choice2 < 0)
+branch  0 never executed
+branch  1 never executed
+branch  2 never executed
+branch  3 never executed
+        -: 1105:			{
+    #####: 1106:				return -1;				
+        -: 1107:			}
+        -: 1108:
+    #####: 1109:			if (choice1 == handPos)
+branch  0 never executed
+branch  1 never executed
+        -: 1110:			{
+    #####: 1111:				return -1;
+        -: 1112:			}
+        -: 1113:
+    #####: 1114:			for (i = 0; i < state->handCount[currentPlayer]; i++)
+branch  0 never executed
+branch  1 never executed
+        -: 1115:			{
+    #####: 1116:				if (i != handPos && i == state->hand[currentPlayer][choice1] && i != choice1)
+branch  0 never executed
+branch  1 never executed
+branch  2 never executed
+branch  3 never executed
+branch  4 never executed
+branch  5 never executed
+        -: 1117:				{
+    #####: 1118:					j++;
+        -: 1119:				}
+        -: 1120:			}
+    #####: 1121:			if (j < choice2)
+branch  0 never executed
+branch  1 never executed
+        -: 1122:			{
+    #####: 1123:				return -1;				
+        -: 1124:			}
+        -: 1125:
+        -: 1126:			if (DEBUG) 
+        -: 1127:				printf("Player %d reveals card number: %d\n", currentPlayer, state->hand[currentPlayer][choice1]);
+        -: 1128:
+        -: 1129:			//increase supply count for choosen card by amount being discarded
+    #####: 1130:			state->supplyCount[state->hand[currentPlayer][choice1]] += choice2;
+        -: 1131:
+        -: 1132:			//each other player gains a copy of revealed card
+    #####: 1133:			for (i = 0; i < state->numPlayers; i++)
+branch  0 never executed
+branch  1 never executed
+        -: 1134:			{
+    #####: 1135:				if (i != currentPlayer)
+branch  0 never executed
+branch  1 never executed
+        -: 1136:				{
+    #####: 1137:					gainCard(state->hand[currentPlayer][choice1], state, 0, i);
+call    0 never executed
+        -: 1138:				}
+        -: 1139:			}
+        -: 1140:
+        -: 1141:			//discard played card from hand
+    #####: 1142:			discardCard(handPos, currentPlayer, state, 0);			
+call    0 never executed
+        -: 1143:
+        -: 1144:			//trash copies of cards returned to supply
+    #####: 1145:			for (j = 0; j < choice2; j++)
+branch  0 never executed
+branch  1 never executed
+        -: 1146:			{
+    #####: 1147:				for (i = 0; i < state->handCount[currentPlayer]; i++)
+branch  0 never executed
+branch  1 never executed
+        -: 1148:				{
+    #####: 1149:					if (state->hand[currentPlayer][i] == state->hand[currentPlayer][choice1])
+branch  0 never executed
+branch  1 never executed
+        -: 1150:					{
+    #####: 1151:						discardCard(i, currentPlayer, state, 1);
+call    0 never executed
+    #####: 1152:						break;
+        -: 1153:					}
+        -: 1154:				}
+        -: 1155:			}			
+        -: 1156:
+    #####: 1157:			return 0;
+        -: 1158:
+        -: 1159:		case cutpurse:
+        -: 1160:
+    #####: 1161:			updateCoins(currentPlayer, state, 2);
+call    0 never executed
+    #####: 1162:			for (i = 0; i < state->numPlayers; i++)
+branch  0 never executed
+branch  1 never executed
+        -: 1163:			{
+    #####: 1164:				if (i != currentPlayer)
+branch  0 never executed
+branch  1 never executed
+        -: 1165:				{
+    #####: 1166:					for (j = 0; j < state->handCount[i]; j++)
+branch  0 never executed
+branch  1 never executed
+        -: 1167:					{
+    #####: 1168:						if (state->hand[i][j] == copper)
+branch  0 never executed
+branch  1 never executed
+        -: 1169:						{
+    #####: 1170:							discardCard(j, i, state, 0);
+call    0 never executed
+    #####: 1171:							break;
+        -: 1172:						}
+    #####: 1173:						if (j == state->handCount[i])
+branch  0 never executed
+branch  1 never executed
+        -: 1174:						{
+    #####: 1175:							for (k = 0; k < state->handCount[i]; k++)
+branch  0 never executed
+branch  1 never executed
+        -: 1176:							{
+        -: 1177:								if (DEBUG)
+        -: 1178:									printf("Player %d reveals card number %d\n", i, state->hand[i][k]);
+        -: 1179:							}	
+    #####: 1180:							break;
+        -: 1181:						}		
+        -: 1182:					}
+        -: 1183:
+        -: 1184:				}
+        -: 1185:
+        -: 1186:			}				
+        -: 1187:
+        -: 1188:			//discard played card from hand
+    #####: 1189:			discardCard(handPos, currentPlayer, state, 0);			
+call    0 never executed
+        -: 1190:
+    #####: 1191:			return 0;
+        -: 1192:
+        -: 1193:
+        -: 1194:		case embargo: 
+        -: 1195:			//+2 Coins
+    #####: 1196:			state->coins = state->coins + 2;
+        -: 1197:
+        -: 1198:			//see if selected pile is in play
+    #####: 1199:			if ( state->supplyCount[choice1] == -1 )
+branch  0 never executed
+branch  1 never executed
+        -: 1200:			{
+    #####: 1201:				return -1;
+        -: 1202:			}
+        -: 1203:
+        -: 1204:			//add embargo token to selected supply pile
+    #####: 1205:			state->embargoTokens[choice1]++;
+        -: 1206:
+        -: 1207:			//trash card
+    #####: 1208:			discardCard(handPos, currentPlayer, state, 1);		
+call    0 never executed
+    #####: 1209:			return 0;
+        -: 1210:
+        -: 1211:		case outpost:
+        -: 1212:			//set outpost flag
+    #####: 1213:			state->outpostPlayed++;
+        -: 1214:
+        -: 1215:			//discard card
+    #####: 1216:			discardCard(handPos, currentPlayer, state, 0);
+call    0 never executed
+    #####: 1217:			return 0;
+        -: 1218:
+        -: 1219:		case salvager:
+        -: 1220:			//+1 buy
+    #####: 1221:			state->numBuys++;
+        -: 1222:
+    #####: 1223:			if (choice1)
+branch  0 never executed
+branch  1 never executed
+        -: 1224:			{
+        -: 1225:				//gain coins equal to trashed card
+    #####: 1226:				state->coins = state->coins + getCost( handCard(choice1, state) );
+call    0 never executed
+call    1 never executed
+        -: 1227:				//trash card
+    #####: 1228:				discardCard(choice1, currentPlayer, state, 1);	
+call    0 never executed
+        -: 1229:			}
+        -: 1230:
+        -: 1231:			//discard card
+    #####: 1232:			discardCard(handPos, currentPlayer, state, 0);
+call    0 never executed
+    #####: 1233:			return 0;
+        -: 1234:
+        -: 1235:		case sea_hag:
+    #####: 1236:			for (i = 0; i < state->numPlayers; i++){
+branch  0 never executed
+branch  1 never executed
+    #####: 1237:				if (i != currentPlayer){
+branch  0 never executed
+branch  1 never executed
+    #####: 1238:					state->discard[i][state->discardCount[i]] = state->deck[i][state->deckCount[i]--];			    state->deckCount[i]--;
+    #####: 1239:					state->discardCount[i]++;
+    #####: 1240:					state->deck[i][state->deckCount[i]--] = curse;//Top card now a curse
+        -: 1241:				}
+        -: 1242:			}
+    #####: 1243:			return 0;
+        -: 1244:
+        -: 1245:		case treasure_map:
+        -: 1246:			//search hand for another treasure_map
+    #####: 1247:			index = -1;
+    #####: 1248:			for (i = 0; i < state->handCount[currentPlayer]; i++)
+branch  0 never executed
+branch  1 never executed
+        -: 1249:			{
+    #####: 1250:				if (state->hand[currentPlayer][i] == treasure_map && i != handPos)
+branch  0 never executed
+branch  1 never executed
+branch  2 never executed
+branch  3 never executed
+        -: 1251:				{
+    #####: 1252:					index = i;
+    #####: 1253:					break;
+        -: 1254:				}
+        -: 1255:			}
+    #####: 1256:			if (index > -1)
+branch  0 never executed
+branch  1 never executed
+        -: 1257:			{
+        -: 1258:				//trash both treasure cards
+    #####: 1259:				discardCard(handPos, currentPlayer, state, 1);
+call    0 never executed
+    #####: 1260:				discardCard(index, currentPlayer, state, 1);
+call    0 never executed
+        -: 1261:
+        -: 1262:				//gain 4 Gold cards
+    #####: 1263:				for (i = 0; i < 4; i++)
+branch  0 never executed
+branch  1 never executed
+        -: 1264:				{
+    #####: 1265:					gainCard(gold, state, 1, currentPlayer);
+call    0 never executed
+        -: 1266:				}
+        -: 1267:
+        -: 1268:				//return success
+    #####: 1269:				return 1;
+        -: 1270:			}
+        -: 1271:
+        -: 1272:			//no second treasure_map found in hand
+    #####: 1273:			return -1;
+        -: 1274:	}
+        -: 1275:
+    #####: 1276:	return -1;
+        -: 1277:}
+        -: 1278:
+function discardCard called 40000 returned 100% blocks executed 78%
+    40000: 1279:int discardCard(int handPos, int currentPlayer, struct gameState *state, int trashFlag)
+        -: 1280:{
+        -: 1281:
+        -: 1282:	//if card is not trashed, added to Played pile 
+    40000: 1283:	if (trashFlag < 1)
+branch  0 taken 100% (fallthrough)
+branch  1 taken 0%
+        -: 1284:	{
+        -: 1285:		//add card to played pile
+    40000: 1286:		state->playedCards[state->playedCardCount] = state->hand[currentPlayer][handPos]; 
+    40000: 1287:		state->playedCardCount++;
+        -: 1288:	}
+        -: 1289:
+        -: 1290:	//set played card to -1
+    40000: 1291:	state->hand[currentPlayer][handPos] = -1;
+        -: 1292:
+        -: 1293:	//remove card from player's hand
+    40000: 1294:	if ( handPos == (state->handCount[currentPlayer] - 1) ) 	//last card in hand array is played
+branch  0 taken 0% (fallthrough)
+branch  1 taken 100%
+        -: 1295:	{
+        -: 1296:		//reduce number of cards in hand
+    #####: 1297:		state->handCount[currentPlayer]--;
+        -: 1298:	}
+    40000: 1299:	else if ( state->handCount[currentPlayer] == 1 ) //only one card in hand
+branch  0 taken 0% (fallthrough)
+branch  1 taken 100%
+        -: 1300:	{
+        -: 1301:		//reduce number of cards in hand
+    #####: 1302:		state->handCount[currentPlayer]--;
+        -: 1303:	}
+        -: 1304:	else 	
+        -: 1305:	{
+        -: 1306:		//replace discarded card with last card in hand
+    40000: 1307:		state->hand[currentPlayer][handPos] = state->hand[currentPlayer][ (state->handCount[currentPlayer] - 1)];
+        -: 1308:		//set last card to -1
+    40000: 1309:		state->hand[currentPlayer][state->handCount[currentPlayer] - 1] = -1;
+        -: 1310:		//reduce number of cards in hand
+    40000: 1311:		state->handCount[currentPlayer]--;
+        -: 1312:	}
+        -: 1313:
+    40000: 1314:	return 0;
+        -: 1315:}
+        -: 1316:
+function gainCard called 0 returned 0% blocks executed 0%
+    #####: 1317:int gainCard(int supplyPos, struct gameState *state, int toFlag, int player)
+        -: 1318:{
+        -: 1319:	//Note: supplyPos is enum of choosen card
+        -: 1320:
+        -: 1321:	//check if supply pile is empty (0) or card is not used in game (-1)
+    #####: 1322:	if ( supplyCount(supplyPos, state) < 1 )
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+        -: 1323:	{
+    #####: 1324:		return -1;
+        -: 1325:	}
+        -: 1326:
+        -: 1327:	//added card for [whoseTurn] current player:
+        -: 1328:	// toFlag = 0 : add to discard
+        -: 1329:	// toFlag = 1 : add to deck
+        -: 1330:	// toFlag = 2 : add to hand
+        -: 1331:
+    #####: 1332:	if (toFlag == 1)
+branch  0 never executed
+branch  1 never executed
+        -: 1333:	{
+    #####: 1334:		state->deck[ player ][ state->deckCount[player] ] = supplyPos;
+    #####: 1335:		state->deckCount[player]++;
+        -: 1336:	}
+    #####: 1337:	else if (toFlag == 2)
+branch  0 never executed
+branch  1 never executed
+        -: 1338:	{
+    #####: 1339:		state->hand[ player ][ state->handCount[player] ] = supplyPos;
+    #####: 1340:		state->handCount[player]++;
+        -: 1341:	}
+        -: 1342:	else
+        -: 1343:	{
+    #####: 1344:		state->discard[player][ state->discardCount[player] ] = supplyPos;
+    #####: 1345:		state->discardCount[player]++;
+        -: 1346:	}
+        -: 1347:
+        -: 1348:	//decrease number in supply pile
+    #####: 1349:	state->supplyCount[supplyPos]--;
+        -: 1350:
+    #####: 1351:	return 0;
+        -: 1352:}
+        -: 1353:
+function updateCoins called 0 returned 0% blocks executed 0%
+    #####: 1354:int updateCoins(int player, struct gameState *state, int bonus)
+        -: 1355:{
+        -: 1356:	int i;
+        -: 1357:
+        -: 1358:	//reset coin count
+    #####: 1359:	state->coins = 0;
+        -: 1360:
+        -: 1361:	//add coins for each Treasure card in player's hand
+    #####: 1362:	for (i = 0; i < state->handCount[player]; i++)
+branch  0 never executed
+branch  1 never executed
+        -: 1363:	{
+    #####: 1364:		if (state->hand[player][i] == copper)
+branch  0 never executed
+branch  1 never executed
+        -: 1365:		{
+    #####: 1366:			state->coins += 1;
+        -: 1367:		}
+    #####: 1368:		else if (state->hand[player][i] == silver)
+branch  0 never executed
+branch  1 never executed
+        -: 1369:		{
+    #####: 1370:			state->coins += 2;
+        -: 1371:		}
+    #####: 1372:		else if (state->hand[player][i] == gold)
+branch  0 never executed
+branch  1 never executed
+        -: 1373:		{
+    #####: 1374:			state->coins += 3;
+        -: 1375:		}	
+        -: 1376:	}	
+        -: 1377:
+        -: 1378:	//add bonus
+    #####: 1379:	state->coins += bonus;
+        -: 1380:
+    #####: 1381:	return 0;
+        -: 1382:}
+        -: 1383:
+        -: 1384:
+        -: 1385://end of dominion.c
+        -: 1386:

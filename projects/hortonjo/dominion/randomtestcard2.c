@@ -17,48 +17,67 @@
 #define DEBUG 0
 #define NOISY_TEST 1
 
-// We expect to gain up to 2 additional cards so long as we have two treasury cards,
-// then discard the Adventurer card when done searching
-int checkAdventurerCard(int p, struct gameState *post, int handPos) {
+// We expect to gain up to 4 additional cards for the current player,
+// 1 card for each other player, and 1 buy for this turn
+int checkCouncilRoomCard(int p, struct gameState *post, int handPos) {
 	
 	// Make a copy of the recieved gameState
 	struct gameState pre;
 	memcpy( &pre, post, sizeof(struct gameState) );
 	
-	// Call Adventurer card!
-	int resultStatus;
-	resultStatus = actionAdventurer(post, handPos);
+	// Call CouncilRoom card!
+	int resultStatus = 0;
+	resultStatus = actionCouncilRoom(post, handPos);
 	assert(resultStatus == 0);
 
-	// Ensure correct values
-	// TODO: Need to do a bool check that has no output, maybe
-	// Also keep in mind that this value should just be +1
-	//assert(pre.handCount[p] + 2 == post->handCount[p]);
-
-	// Need to search the deck and discard piles for up to 2 treasure
-	// cards to add to the hand. There is no self-discard afterwards.
-	int search, found = 0;
-	for (search = 0; search < pre.deckCount[p]; search++)
-		if (pre.deck[p][search] == copper || pre.deck[p][search] == silver || pre.deck[p][search] == gold)
-			found++;
-	for (search = 0; search < pre.discardCount[p]; search++)
-		if (pre.discard[p][search] == copper || pre.discard[p][search] == silver || pre.discard[p][search] == gold)
-			found++;
-
-	if (found > 1)
+	// Adjust previous values how we think they should be adjusted by the card
+	// +4 cards
+	if (pre.deckCount[p] + pre.discardCount[p] > 3)
+		pre.handCount[p] += 3;
+	else if (pre.deckCount[p] + pre.discardCount[p] > 2)
 		pre.handCount[p] += 2;
-	else if (found == 1)
+	else if (pre.deckCount[p] + pre.discardCount[p] > 1)
 		pre.handCount[p] += 1;
+	else if (pre.deckCount[p] + pre.discardCount[p] > 0)
+		pre.handCount[p] += 0;
+	else
+		pre.handCount[p] -= 1;
+	
+	pre.numBuys += 1; // +1 buy
+
+	// All other players draw a card
+	int i = 0;
+	for (i = 0; i < 4; i++) {
+		if (i != p) { // for everyone aside from the current player
+			if (pre.deckCount[i] + pre.discardCount[i] > 0) {
+				pre.handCount[i] += 1;
+			}
+		}
+		// TODO: This else statement matches a bug I added to the implementation
+		// 	 of the card. It should be removed for testing other impementations
+		else
+			if (pre.deckCount[i] + pre.discardCount[i] > 4) {
+				pre.handCount[i] += 1;
+			}
+	}
+
+	pre.playedCardCount += 1; // self-discard
+
 
 	// Assume that the correct cards are kept, relies on other functions
-	memcpy(pre.deck[p], post->deck[p], sizeof(int) * MAX_DECK);
-	memcpy(pre.discard[p], post->discard[p], sizeof(int) * MAX_DECK);
-	memcpy(pre.hand[p], post->hand[p], sizeof(int) * MAX_HAND);
-	memcpy(pre.playedCards, post->playedCards, sizeof(int) * MAX_DECK);
+	for (i = 0; i < 4; i++) {
+		memcpy(pre.deck[i], post->deck[i], sizeof(int) * MAX_DECK);
+		memcpy(pre.discard[i], post->discard[i], sizeof(int) * MAX_DECK);
+		memcpy(pre.hand[i], post->hand[i], sizeof(int) * MAX_HAND);
+	}
+	memcpy(pre.playedCards, post->playedCards, sizeof(int) * MAX_DECK);	
+
 
 	// These are a little tough to calculate, let's just copy them
-	pre.deckCount[p] = post->deckCount[p];
-	pre.discardCount[p] = post->discardCount[p];
+	for (i = 0; i < 4; i++) {
+		pre.deckCount[i] = post->deckCount[i];
+		pre.discardCount[i] = post->discardCount[i];
+	}
 
 	//assert(memcmp(&pre, post, sizeof(struct gameState)) == 0);
 	resultStatus = assertTrue(memcmp(&pre, post, sizeof(struct gameState)) == 0, "gameState equal", 2);
@@ -110,14 +129,14 @@ int checkAdventurerCard(int p, struct gameState *post, int handPos) {
 		assertTrue(memcmp(pre.discard[3], post->discard[3], sizeof(int) * MAX_DECK) == 0, "4 discard", 2);
 		assertTrue(pre.discardCount[3] == post->discardCount[3], "4 discardCount", 2);
 
-		
-		// For printing cards inventories and check for buffer overflow
+			
+		// For printing card inventories and check for buffer overflow
 		//int i;
 		//printf("handCount = %d\n", pre.handCount[p]);
 		//printf("deckCount = %d\n", pre.deckCount[p]);	
 		//printf("discardCount = %d\n", pre.discardCount[p]);
 		//for (i = 0; i < MAX_HAND; i++)
-		//printf("%d\t%d\n", pre.discard[p][i], post->discard[p][i]);
+		//printf("%d\t%d\n", pre.discard[p][i], post->discard[p][i]);	
 
 		printf("\n");
 	}
@@ -132,7 +151,7 @@ int checkAdventurerCard(int p, struct gameState *post, int handPos) {
 int main () {
 
 	struct gameState G;
-	printf ("Testing Adventurer Card with random tests\n");
+	printf ("Testing Council Room Card with random tests\n");
 
 	// Initailizing RNG
 	//TestRandom(); // Makes sure RNG is working correctly
@@ -149,16 +168,17 @@ int main () {
 		}
 		p = floor(Random() * 4); // sets player number
 		G.whoseTurn = p;
+		G.numPlayers = 4;
 
 		// Setting reasonable deck counts. I have to divide the maximums
 		// by some value because there is occasional memory corruption
 		// when, say, discarding more cards and going over the MAX_DECK
 		for (i = 0; i < 4; i++) {
-			G.deckCount[i] = floor(Random() * MAX_DECK/3); // empty decks break
+			G.deckCount[i] = floor(Random() * MAX_DECK/3);
 			G.discardCount[i] = floor(Random() * MAX_DECK/3);
 			G.handCount[i] = floor(Random() * MAX_HAND/3);
 		}
-	
+		
 		// Give the players valid cards as well
 		// 27 cards, with enumed values of 0 to 26 (treasure_map)
 		for (j = 0; j < 4; j++) {
@@ -169,17 +189,18 @@ int main () {
 			for (i = 0; i < MAX_DECK; i++)
 				G.discard[j][i] = floor(Random() * treasure_map);
 		}
-	
+		
 		// Populate the played cards for this turn in the same way
 		for (i = 0; i < MAX_DECK; i++)
 			G.playedCards[i] = floor(Random() * treasure_map);
 		G.playedCardCount = floor(Random() * MAX_DECK/3);
 
-		// Choose random card position in hand and set it to Adventurer
+		// Choose random card position in hand and set it to Council Room
 		int handPos = floor(Random() * G.handCount[p]);
-		G.hand[p][handPos] = adventurer;
-
-		checkAdventurerCard(p, &G, handPos);
+		G.hand[p][handPos] = council_room;
+	
+		// Call the check function
+		checkCouncilRoomCard(p, &G, handPos);
 	}
 
 	printf ("TESTS COMPLETED\n");

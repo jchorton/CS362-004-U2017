@@ -673,6 +673,7 @@ int actionAdventurer(struct gameState *state, int handPos) {
 
 	while(drawnTreasure < 2){
 		//if the deck is empty we need to shuffle discard and add to deck
+		
 		if (state->deckCount[currentPlayer] < 1){			
 			shuffle(currentPlayer, state);
 		}

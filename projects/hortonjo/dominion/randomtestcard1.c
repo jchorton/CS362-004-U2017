@@ -17,38 +17,36 @@
 #define DEBUG 0
 #define NOISY_TEST 1
 
-// We expect to gain up to 2 additional cards so long as we have two treasury cards,
-// then discard the Adventurer card when done searching
-int checkAdventurerCard(int p, struct gameState *post, int handPos) {
+// We expect to gain up to 3 addional cards if we have that many more
+// in the deck, then to self-discard the smithy card.
+int checkSmithyCard(int p, struct gameState *post, int handPos) {
 	
 	// Make a copy of the recieved gameState
 	struct gameState pre;
 	memcpy( &pre, post, sizeof(struct gameState) );
 	
-	// Call Adventurer card!
-	int resultStatus;
-	resultStatus = actionAdventurer(post, handPos);
+	// Call Smithy card!
+	int resultStatus = 0;
+	resultStatus = actionSmithy(post, handPos);
 	assert(resultStatus == 0);
 
-	// Ensure correct values
-	// TODO: Need to do a bool check that has no output, maybe
-	// Also keep in mind that this value should just be +1
-	//assert(pre.handCount[p] + 2 == post->handCount[p]);
-
-	// Need to search the deck and discard piles for up to 2 treasure
-	// cards to add to the hand. There is no self-discard afterwards.
-	int search, found = 0;
-	for (search = 0; search < pre.deckCount[p]; search++)
-		if (pre.deck[p][search] == copper || pre.deck[p][search] == silver || pre.deck[p][search] == gold)
-			found++;
-	for (search = 0; search < pre.discardCount[p]; search++)
-		if (pre.discard[p][search] == copper || pre.discard[p][search] == silver || pre.discard[p][search] == gold)
-			found++;
-
-	if (found > 1)
+	// TODO: Fix this when testing another Smithy implementation
+	// The Smithy is supposed to gain 3 cards and lose 1, but I introduced a 
+	// previous bug to draw 4 cards instead, so I had to take that into account
+	// so I wouldn't get a ton of error messages!
+	if (pre.deckCount[p] + pre.discardCount[p] > 3) // BUG
+		pre.handCount[p] += 3; // BUG
+	else if (pre.deckCount[p] + pre.discardCount[p] > 2) // Should be first if statement
 		pre.handCount[p] += 2;
-	else if (found == 1)
+	else if (pre.deckCount[p] + pre.discardCount[p] > 1)
 		pre.handCount[p] += 1;
+	else if (pre.deckCount[p] + pre.discardCount[p] > 0)
+		pre.handCount[p] += 0;
+	else
+		pre.handCount[p] -= 1;
+	
+	pre.playedCardCount += 1; // self-discard
+
 
 	// Assume that the correct cards are kept, relies on other functions
 	memcpy(pre.deck[p], post->deck[p], sizeof(int) * MAX_DECK);
@@ -57,8 +55,10 @@ int checkAdventurerCard(int p, struct gameState *post, int handPos) {
 	memcpy(pre.playedCards, post->playedCards, sizeof(int) * MAX_DECK);
 
 	// These are a little tough to calculate, let's just copy them
+	//pre.handCount[p] = post->handCount[p]; // debugging
 	pre.deckCount[p] = post->deckCount[p];
 	pre.discardCount[p] = post->discardCount[p];
+	//pre.playedCardCount = post->playedCardCount; // debugging
 
 	//assert(memcmp(&pre, post, sizeof(struct gameState)) == 0);
 	resultStatus = assertTrue(memcmp(&pre, post, sizeof(struct gameState)) == 0, "gameState equal", 2);
@@ -111,13 +111,13 @@ int checkAdventurerCard(int p, struct gameState *post, int handPos) {
 		assertTrue(pre.discardCount[3] == post->discardCount[3], "4 discardCount", 2);
 
 		
-		// For printing cards inventories and check for buffer overflow
+		// For printing card inventories and check for buffer overflow
 		//int i;
 		//printf("handCount = %d\n", pre.handCount[p]);
 		//printf("deckCount = %d\n", pre.deckCount[p]);	
 		//printf("discardCount = %d\n", pre.discardCount[p]);
 		//for (i = 0; i < MAX_HAND; i++)
-		//printf("%d\t%d\n", pre.discard[p][i], post->discard[p][i]);
+		//printf("%d\t%d\n", pre.discard[p][i], post->discard[p][i]);	
 
 		printf("\n");
 	}
@@ -132,7 +132,7 @@ int checkAdventurerCard(int p, struct gameState *post, int handPos) {
 int main () {
 
 	struct gameState G;
-	printf ("Testing Adventurer Card with random tests\n");
+	printf ("Testing Smithy Card with random tests\n");
 
 	// Initailizing RNG
 	//TestRandom(); // Makes sure RNG is working correctly
@@ -154,11 +154,11 @@ int main () {
 		// by some value because there is occasional memory corruption
 		// when, say, discarding more cards and going over the MAX_DECK
 		for (i = 0; i < 4; i++) {
-			G.deckCount[i] = floor(Random() * MAX_DECK/3); // empty decks break
+			G.deckCount[i] = floor(Random() * MAX_DECK/3);
 			G.discardCount[i] = floor(Random() * MAX_DECK/3);
 			G.handCount[i] = floor(Random() * MAX_HAND/3);
 		}
-	
+		
 		// Give the players valid cards as well
 		// 27 cards, with enumed values of 0 to 26 (treasure_map)
 		for (j = 0; j < 4; j++) {
@@ -169,17 +169,18 @@ int main () {
 			for (i = 0; i < MAX_DECK; i++)
 				G.discard[j][i] = floor(Random() * treasure_map);
 		}
-	
+		
 		// Populate the played cards for this turn in the same way
 		for (i = 0; i < MAX_DECK; i++)
 			G.playedCards[i] = floor(Random() * treasure_map);
 		G.playedCardCount = floor(Random() * MAX_DECK/3);
 
-		// Choose random card position in hand and set it to Adventurer
+		// Choose random card position in hand and set it to Smithy
 		int handPos = floor(Random() * G.handCount[p]);
-		G.hand[p][handPos] = adventurer;
-
-		checkAdventurerCard(p, &G, handPos);
+		G.hand[p][handPos] = smithy;
+	
+		// Call the check function
+		checkSmithyCard(p, &G, handPos);
 	}
 
 	printf ("TESTS COMPLETED\n");

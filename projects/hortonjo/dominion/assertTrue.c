@@ -18,19 +18,24 @@
  */
 int assertTrue(int testBool, char *label, int exitBool) {
 
+	// exitBool == 0, normal output and program continues
+	// exitBool == 1, normal output and program halts
+	// exitBool == 2, only report failures and program continues
+
 	// Prints results of tests
-	if (testBool)
-		printf("PASS");
-	else
-		printf("FAIL");
-	printf(" : %s", label);
-	printf("\n");
+	if (testBool && exitBool != 2)
+		printf("PASS : %s\n", label);
+	else if (!testBool)
+		printf("FAIL : %s\n", label);
 
 	// Exit program if desired
-	if (!testBool && exitBool) {
+	if (!testBool && exitBool == 1) {
 		printf("Terminating Program!\n");
 		exit(1);
 	}
 	
-	return testBool;
+	if (testBool)
+		return 0;
+	else
+		return 1;
 }

@@ -99,10 +99,38 @@ unittestresults.out: dominion.o rngs.o assertTrue.o unitTest1.c unitTest2.c unit
 randomtestadventurer: randomtestadventurer.c dominion.o rngs.o assertTrue.o
 	gcc -o randomtestadventurer -g randomtestadventurer.c dominion.o rngs.o assertTrue.o $(CFLAGS)
 
+randomtestcard1: randomtestcard1.c dominion.o rngs.o assertTrue.o
+	gcc -o randomtestcard1 -g randomtestcard1.c dominion.o rngs.o assertTrue.o $(CFLAGS)
+
+randomtestcard2: randomtestcard2.c dominion.o rngs.o assertTrue.o
+	gcc -o randomtestcard2 -g randomtestcard2.c dominion.o rngs.o assertTrue.o $(CFLAGS)
+
+randomtestresults.out: dominion.o rngs.o assertTrue.o randomtestadventurer.c randomtestcard1.c randomtestcard2.c
+	echo "Results for running dominion tests:" > randomtestresults.out
+	
+	echo "randomtestadventurer.c:" >> randomtestresults.out
+	gcc -o randomtestadventurer -g randomtestadventurer.c dominion.o rngs.o assertTrue.o $(CFLAGS)
+	randomtestadventurer >> randomtestresults.out
+	gcov -b dominion.c >> randomtestresults.out
+
+	echo "randomtestcard1.c:" >> randomtestresults.out
+	gcc -o randomtestcard1 -g randomtestcard1.c dominion.o rngs.o assertTrue.o $(CFLAGS)
+	randomtestcard1 >> randomtestresults.out
+	gcov -b dominion.c >> randomtestresults.out
+
+	echo "randomtestcard2.c:" >> randomtestresults.out
+	gcc -o randomtestcard2 -g randomtestcard2.c dominion.o rngs.o assertTrue.o $(CFLAGS)
+	randomtestcard2 >> randomtestresults.out
+	gcov -b dominion.c >> randomtestresults.out
+
+	echo "dominion.c.gcov:" >> randomtestresults.out
+	cat dominion.c.gcov >> randomtestresults.out
+
+
 player: player.c interface.o
 	gcc -o player player.c -g  dominion.o rngs.o interface.o $(CFLAGS)
 
 all: playdom player unitTest1 unitTest2 unitTest3 unitTest4 cardTest1 cardTest2 cardTest3 cardTest4
 
 clean:
-	rm -f *.o playdom.exe playdom player player.exe  *.gcov *.gcda *.gcno *.so *.out testDrawCard testDrawCard.exe badTestDrawCard unitTest1 unitTest2 unitTest3 unitTest4 cardTest1 cardTest2 cardTest3 cardTest4 randomtestadventurer
+	rm -f *.o playdom.exe playdom player player.exe  *.gcov *.gcda *.gcno *.so *.out testDrawCard testDrawCard.exe badTestDrawCard unitTest1 unitTest2 unitTest3 unitTest4 cardTest1 cardTest2 cardTest3 cardTest4 randomtestadventurer randomtestcard1 randomtestcard2
