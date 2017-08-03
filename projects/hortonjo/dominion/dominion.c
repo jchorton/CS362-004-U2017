@@ -671,7 +671,8 @@ int actionAdventurer(struct gameState *state, int handPos) {
 	int tempHand[MAX_HAND];
 	int z = 0;// this is the counter for the temp hand
 
-	while(drawnTreasure < 2){
+	// BUGFIX -- Modified loop conditions to end when done searching
+	while( drawnTreasure < 2 && !(state->discardCount[currentPlayer] == 0 && state->deckCount[currentPlayer] == 0) ){
 		//if the deck is empty we need to shuffle discard and add to deck
 		
 		if (state->deckCount[currentPlayer] < 1){			
@@ -681,8 +682,9 @@ int actionAdventurer(struct gameState *state, int handPos) {
 		
 		//top card of hand is most recently drawn card.
 		cardDrawn = state->hand[currentPlayer][state->handCount[currentPlayer] - 1];
-
-		if (cardDrawn == silver || cardDrawn == gold)
+		
+		// BUGFIX -- added copper as a possible treasure again
+		if (cardDrawn == copper || cardDrawn == silver || cardDrawn == gold)
 			drawnTreasure++;
 		else{
 			tempHand[z] = cardDrawn;
@@ -697,6 +699,10 @@ int actionAdventurer(struct gameState *state, int handPos) {
 		state->discard[currentPlayer][ state->discardCount[currentPlayer]++ ] = tempHand[z - 1];
 		z--;
 	}
+
+	// BUGFIX -- should self-discard like the other cards
+	//discard card from hand
+	discardCard(handPos, currentPlayer, state, 0);
 
 	return 0;
 }

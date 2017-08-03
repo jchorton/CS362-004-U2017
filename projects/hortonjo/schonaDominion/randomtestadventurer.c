@@ -27,7 +27,11 @@ int checkAdventurerCard(int p, struct gameState *post, int handPos) {
 	
 	// Call Adventurer card!
 	int resultStatus;
-	resultStatus = actionAdventurer(post, handPos);
+
+	// FIXME: Refactoring and adding prototype for assignment 5
+	//resultStatus = actionAdventurer(post, handPos);
+	int AdventurerEffect(int currentPlayer, int handPos, struct gameState *state);
+	resultStatus = AdventurerEffect(post->whoseTurn, handPos, post);
 	assert(resultStatus == 0);
 
 	// Ensure correct values
@@ -45,16 +49,10 @@ int checkAdventurerCard(int p, struct gameState *post, int handPos) {
 		if (pre.discard[p][search] == copper || pre.discard[p][search] == silver || pre.discard[p][search] == gold)
 			found++;
 
-	// BUGFIX: Reworked this to align with a properly self-discarding adventurer card
 	if (found > 1)
-		pre.handCount[p] += 1;
+		pre.handCount[p] += 2;
 	else if (found == 1)
-		pre.handCount[p] += 0;
-	else 
-		pre.handCount[p] -= 1;
-
-	pre.playedCardCount += 1;
-
+		pre.handCount[p] += 1;
 
 	// Assume that the correct cards are kept, relies on other functions
 	memcpy(pre.deck[p], post->deck[p], sizeof(int) * MAX_DECK);
@@ -146,7 +144,7 @@ int main () {
 	PutSeed(1);
 
 	int n, i, j, p;
-	for (n = 0; n < 20000; n++) {
+	for (n = 0; n < 30; n++) {
 		//printf("Beginning test %d\n", n);
 
 		// Fills gameState with entirely random junk characters

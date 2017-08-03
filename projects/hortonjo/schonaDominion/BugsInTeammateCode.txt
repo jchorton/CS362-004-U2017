@@ -1,0 +1,228 @@
+SmithyEffect Bug Report
+=======================
+Title: SmithyEffect discarding too many cards
+
+Class: Serious Bug
+
+Date: 2017-08-03
+Reported By: Jonathan Horton
+Email: hortonjo@oregonstate.edu
+
+Product: Dominion Game
+Platform: flip
+
+
+Description
+===========
+Smithy is supposed to draw three cards and discard itself, but
+it is discarding too many.
+
+
+Steps to Produce/Reproduce
+-------------------------
+1. Initialize game with plenty of cards in player deck
+2. Note number of cards in player hand and discard pile
+3. Call SmithyEffect
+4. Note new number of cards in player hand and discard pile
+
+
+Expected Results
+----------------
+Gain a net two cards to the handCount.
+
+
+Actual Results
+--------------
+Number of cards remains the same.
+
+
+Workarounds
+-----------
+
+
+Attachments
+-----------
+
+*** Output from unit tests for Smithy Effect
+
+Testing SmithyEffect
+--------------------
+FAIL : Adds net two cards to hand
+PASS : Removes three cards from deck
+PASS : Other player hand count unchanged
+PASS : Other player deck count unchanged
+
+Checking all supply counts...
+PASS : Same supply count for card 0
+PASS : Same supply count for card 1
+PASS : Same supply count for card 2
+PASS : Same supply count for card 3
+PASS : Same supply count for card 4
+PASS : Same supply count for card 5
+PASS : Same supply count for card 6
+PASS : Same supply count for card 7
+PASS : Same supply count for card 8
+PASS : Same supply count for card 9
+PASS : Same supply count for card 10
+PASS : Same supply count for card 11
+PASS : Same supply count for card 12
+PASS : Same supply count for card 13
+PASS : Same supply count for card 14
+PASS : Same supply count for card 15
+PASS : Same supply count for card 16
+PASS : Same supply count for card 17
+PASS : Same supply count for card 18
+PASS : Same supply count for card 19
+PASS : Same supply count for card 20
+PASS : Same supply count for card 21
+PASS : Same supply count for card 22
+PASS : Same supply count for card 23
+PASS : Same supply count for card 24
+PASS : Same supply count for card 25
+PASS : Same supply count for card 26
+
+Checking boundary where deck count is only 2...
+FAIL : Adds net one card to hand
+PASS : Deck count is set to zero
+
+Checking boundary where deck count is only 1...
+FAIL : Hand size remains the same
+PASS : Deck count is set to zero
+
+Checking boundary where deck count is 0...
+FAIL : Hand size goes down by 1
+PASS : Deck count is set to zero
+
+
+*** Output from random tests for SmithyEffect
+
+Testing Smithy Card with random tests
+FAIL : gameState equal
+Checking for equality in gameState for player 3:
+Pre handCount = 109 	 Post handCount = 107
+			 Post deckCount = 7
+			 Post discardCount = 137
+FAIL : playedCardCount
+FAIL : 3 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 1:
+Pre handCount = 128 	 Post handCount = 126
+			 Post deckCount = 87
+			 Post discardCount = 36
+FAIL : playedCardCount
+FAIL : 1 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 3:
+Pre handCount = 119 	 Post handCount = 117
+			 Post deckCount = 11
+			 Post discardCount = 10
+FAIL : playedCardCount
+FAIL : 3 handCount
+
+TESTS COMPLETED
+
+
+
+
+
+
+
+AdventurerEffect Bug Report
+===========================
+Title: AdventurerEffect causing seg fault / buffer overrun
+
+Class: Serious Bug
+
+Date: 2017-08-03
+Reported By: Jonathan Horton
+Email: hortonjo@oregonstate.edu
+
+Product: Dominion Game
+Platform: flip
+
+
+Description
+===========
+Adventurer effect occasionally runs out of cards when searching
+the deck and keeps going into other computer memory. Having gold
+in the deck seems to lessen the problem.
+
+
+Steps to Produce/Reproduce
+-------------------------
+1. Initialize game with a deck with few or no treasure cards
+2. Call AdventurerEffect
+3. Seg fault is reported and program terminates
+
+
+Expected Results
+----------------
+Adventurer searches deck for treasure cards and adds them to the
+current player's hand, if found. Otherwise the card simply
+discards itself.
+
+
+Actual Results
+--------------
+Program either crashes or has unpredictable behavior, sometimes
+adding or subtracting large numbers of cards.
+
+
+Workarounds
+-----------
+Having a deck built of gold works a bit better for some reason, 
+though the card still doesn't discard itself at the end.
+
+
+Attachments
+-----------
+
+*** Output from GDB running unit test for AdventurerEffect:
+
+Program received signal SIGSEGV, Segmentation fault.
+0x0000000000403c30 in AdventurerEffect (currentPlayer=0, handPos=0, state=0x7ffffffef710) at dominion.c:677
+677			cardDrawn = state->hand[currentPlayer][state->handCount[currentPlayer]-1];//top card of hand is most recently drawn card.
+
+(gdb) print state->handCount[currentPlayer]
+$2 = -2081282
+
+
+*** Running unit test with gold deck only:
+
+Testing AdventurerEffect
+------------------------
+
+Building deck of two gold cards...
+FAIL : Adds net one card to hand
+PASS : Removes two cards from deck
+
+
+*** Output from random tests for AdventurerEffect:
+
+Testing Adventurer Card with random tests
+FAIL : gameState equal
+Checking for equality in gameState for player 1:
+Pre handCount = 105 	 Post handCount = 104
+			 Post deckCount = 0
+			 Post discardCount = 29
+FAIL : 1 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 3:
+Pre handCount = 36 	 Post handCount = 35
+			 Post deckCount = 0
+			 Post discardCount = 44
+FAIL : 3 handCount
+
+FAIL : gameState equal
+Checking for equality in gameState for player 1:
+Pre handCount = 78 	 Post handCount = 77
+			 Post deckCount = 0
+			 Post discardCount = 132
+FAIL : 1 handCount
+
+TESTS COMPLETED
+
+
