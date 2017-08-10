@@ -69,7 +69,7 @@ public class UrlValidatorTest extends TestCase {
 	   checkURL("http://192.168.1.1", true);
    }
   
-   public void testManualTest7() { // BUG: Requires scheme, protocol relative URLs do not work
+   public void testManualTest7() { // BUG: Requires scheme, protocol relative URLs do not work (CORRECT VERSION ALSO DOES NOT WORK) 
 	   checkURL("//example.com", true);
    }
 
