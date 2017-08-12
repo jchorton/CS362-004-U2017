@@ -31,6 +31,7 @@ import java.util.Random;
  * - length of components
  * - protocol relative URLs such as "//example.com" (isValid doesn't seem to recognize them either)
  * - things like "." and "/" aren't entirely random since they have extra rules
+ * - false statements
  */
 public class UrlValidatorRandomTest extends TestCase {
 
