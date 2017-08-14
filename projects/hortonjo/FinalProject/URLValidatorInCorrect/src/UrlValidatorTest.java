@@ -65,6 +65,9 @@ public class UrlValidatorTest extends TestCase {
    	   checkURL("https://///www.google.com", false);
    	   checkURL("https://www..google.com", false);
    	   checkURL("https://www.google.com/hello//there", false);
+   	   checkURL("http://www.example.com/space%20here.html", true);
+   	   checkURL("http://www.example.com/space here.html", false);
+   	   checkURL("http:www.example.com/main.html", false);
    }
 
    
@@ -75,6 +78,7 @@ public class UrlValidatorTest extends TestCase {
    public void testPartition1() {
 	   checkURL("http://www.amazon.com:80", true);
 	   checkURL("ftp://ftp.soylent.com:123", true);
+	   checkURL("http://secretlab.gov:70000", false);
 	   checkURL("http://secretlab.gov:1000", true); // BUG: 4-digit port numbers fail
    }
    
@@ -85,16 +89,20 @@ public class UrlValidatorTest extends TestCase {
 	   checkURL("http://www.amazon.com/a/b/c", true);
 	   checkURL("http://www.amazon.com/a/b/c/d", true);
 	   checkURL("http://www.amazon.com/a/b/c/d/penguin.gif", true);
+	   checkURL("http://www.amazon.com/@$%^&*()P_{}", false);
    }
    
-   // URLs with #references
+   // URLs with #fragment
    public void testPartition3() {
 	   checkURL("http://www.amazon.com/#1", true);
 	   checkURL("ftp://ftp.google.com/#secretRoom", true);
+	   checkURL("f#tp://ftp.google.com/", false);
+   	   checkURL("https://www.google.com/# space/", false); // BUG: invalid characters in fragments work
    }
    
    // URLs with queries
    public void testPartition4() { // BUG: Queries don't work at all
+	   checkURL("http://www.example.com/showNumber?", false);
 	   checkURL("http://www.example.com/showNumber?query=123", true);
 	   checkURL("http://www.example.com/showNumber?key1=value1&key2=value2", true);
 	   checkURL("https://www.wunderground.com/cgi-bin/findweather/getForecast?query=corvallis+oregon", true);
@@ -134,18 +142,23 @@ public class UrlValidatorTest extends TestCase {
    public void testValidURLLength() {
 	   UrlValidator urlVal = new UrlValidator(null, null, UrlValidator.ALLOW_ALL_SCHEMES);
 	   String urlString = "http://www.example.com/";
-	   for (int i = 0; i < 10000; i++) {
+	   for (int i = 0; i < 2048; i++) {
 		   urlString += "a"; // http://www.example.com/aaaaaa...
 		   if (urlVal.isValid(urlString) == false) {
 			   System.out.println("Max Length: " + urlString.length());
-			   i = 10000;
+			   i = 2048;
 		   }
 	   }   
    }
    
-   // Checking an extremely simple query
+   // Checking a simple query
    public void testUnitTest1() {
 	   checkURL("http://www.example.com/showNumber?query=123", true);
+   }
+   
+   // Checking a simple fragment
+   public void testUnitTest2() {
+	   checkURL("http://www.example.com/# invalid spaces", false);
    }
 
    
