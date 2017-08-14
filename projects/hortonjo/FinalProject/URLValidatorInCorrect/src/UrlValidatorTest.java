@@ -134,14 +134,7 @@ public class UrlValidatorTest extends TestCase {
    public void testUnitTest1() {
 	   checkURL("http://www.example.com/showNumber?query=123", true);
    }
-   
-   public void testUnitTest2() {
-	   
-   }
-   
-   public void testUnitTest3() {
-	   
-   }
+
    
    /**
     * Create set of tests by taking the testUrlXXX arrays and
