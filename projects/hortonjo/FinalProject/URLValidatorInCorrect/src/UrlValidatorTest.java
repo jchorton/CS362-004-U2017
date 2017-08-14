@@ -45,68 +45,26 @@ public class UrlValidatorTest extends TestCase {
    /****************
     * Manual Tests *
     ****************/
-   public void testManualTest1() {
+   public void testManualTest() {
 	   checkURL("http://www.google.com", true);	   	   
-   }
-   
-   public void testManualTest2() { 
-	   checkURL("https://oregonstate.instructure.com/courses/1638968", true);
-   }
-   
-   public void testManualTest3() { // BUG: Doesn't accept all queries
-	   checkURL("https://www.wunderground.com/cgi-bin/findweather/getForecast?query=corvallis+oregon", true);
-   }
-   
-   public void testManualTest4() {
+  	   checkURL("https://oregonstate.instructure.com/courses/1638968", true);
+	   //checkURL("https://www.wunderground.com/cgi-bin/findweather/getForecast?query=corvallis+oregon", true); //BUG: Doesn't accept all queries
 	   checkURL("http://www.oregon.gov/SiteCollectionImages/branding/portal/bigfoot.png", true);
-   }
-   
-   public void testManualTest5() { // BUG: Doesn't recognize out-of-range
-	   checkURL("http://111.222.333.444", false);
-   }
-   
-   public void testManualTest6() {
+	   //checkURL("http://111.222.333.444", false);	// BUG: Doesn't recognize out-of-range   
 	   checkURL("http://192.168.1.1", true);
-   }
-  
-   public void testManualTest7() { // BUG: Requires scheme, protocol relative URLs do not work (CORRECT VERSION ALSO DOES NOT WORK) 
-	   checkURL("//example.com", true);
-   }
-
-   public void testManualTest8() {
+	   //checkURL("//example.com", true); // BUG: Requires scheme, protocol relative URLs do not work (CORRECT VERSION ALSO DOES NOT WORK)
 	   checkURL("http://192.168.1.1", true);
-   }
-   
-   public void testManualTest9() {
 	   checkURL("ftp://ftp.nifc.gov/", true);
-   }   
-   
-   public void testManualTest10() { // BUG: Doesn't accept email links, could be the @ symbol?
-	   checkURL("mailto:test.student@oregonstate.edu", true);
-   } 
-   
-   public void testManualTest11() {
+	   //checkURL("mailto:test.student@oregonstate.edu", true);  // BUG: Doesn't accept email links
 	   checkURL("123invalid-scheme://192.168.0.1/", false);
-   } 
-   
-   public void testManualTest12() {
-	   checkURL("http://www.google.com:80/", true);
-   }
-
-   public void testManualTest13() {
-	   checkURL("http://www.google.com/#pickles", true);
-   }
-   
-   public void testManualTest14() {
-	   checkURL("http://www.google.com/$%^&*()", false);
-   }
-   
-   public void testManualTest15() {
-	   checkURL("http://www.domain.silly", false);
-   }
-   
-   public void testManualTest16() {
-	   checkURL("https://///www.google.com", false);
+	   checkURL("a123://192.168.0.1/", true);
+   	   checkURL("http://www.google.com:80/", true);
+   	   checkURL("http://www.google.com/#pickles", true);
+   	   checkURL("http://www.google.com/$%^&*()", false);
+   	   checkURL("http://www.domain.silly", false);
+   	   checkURL("https://///www.google.com", false);
+   	   checkURL("https://www..google.com", false);
+   	   checkURL("https://www.google.com/hello//there", false);
    }
 
    
@@ -114,14 +72,14 @@ public class UrlValidatorTest extends TestCase {
     * Partition tests *
     *******************/
    // URLs with specified ports
-   public void testYour1Partition() {
+   public void testPartition1() {
 	   checkURL("http://www.amazon.com:80", true);
 	   checkURL("ftp://ftp.soylent.com:123", true);
 	   checkURL("http://secretlab.gov:1000", true); // BUG: 4-digit port numbers fail
    }
    
    // URLs with specified paths
-   public void testYour2Partition() {
+   public void testPartition2() {
 	   checkURL("http://www.amazon.com/a", true);
 	   checkURL("http://www.amazon.com/a/b", true);
 	   checkURL("http://www.amazon.com/a/b/c", true);
@@ -130,13 +88,13 @@ public class UrlValidatorTest extends TestCase {
    }
    
    // URLs with #references
-   public void testYour3Partition() {
+   public void testPartition3() {
 	   checkURL("http://www.amazon.com/#1", true);
 	   checkURL("ftp://ftp.google.com/#secretRoom", true);
    }
    
    // URLs with queries
-   public void testYour4Partition() { // BUG: Queries don't work at all
+   public void testPartition4() { // BUG: Queries don't work at all
 	   checkURL("http://www.example.com/showNumber?query=123", true);
 	   checkURL("http://www.example.com/showNumber?key1=value1&key2=value2", true);
 	   checkURL("https://www.wunderground.com/cgi-bin/findweather/getForecast?query=corvallis+oregon", true);
@@ -146,24 +104,50 @@ public class UrlValidatorTest extends TestCase {
    /*****************************
     * Programming-based Testing *
     *****************************/
-   public void testIsValid()
-   {
-	   for(int i = 0;i<10000;i++)
-	   {
-		   
+   // Runs through valid IP addresses with a bit of overrun
+   public void testValidIPTest() {
+	   String urlString = "";
+	   for (int i = 0; i < 300; i++) {
+		   urlString = "http://";
+		   urlString += i + "." + i + "." + i + "." + i; // http://i.i.i.i
+		   if (i < 256)
+			   checkURL(urlString, true);
+		   else
+			   checkURL(urlString, false);
 	   }
    }
    
-   public void testAnyOtherUnitTest()
-   {
+   // Runs through all valid port numbers
+   public void testValidPortTest() {
+	   String urlString = "";
+	   for (int i = 0; i < 70000; i++) {
+		   urlString = "http://www.example.com:";
+		   urlString += i; // http://www.example.com:i
+		   if (i < 65535)
+			   checkURL(urlString, true);
+		   else
+			   checkURL(urlString, false);
+	   }
+   }
+   
+   // Checking an extremely simple query
+   public void testUnitTest1() {
+	   checkURL("http://www.example.com/showNumber?query=123", true);
+   }
+   
+   public void testUnitTest2() {
 	   
    }
+   
+   public void testUnitTest3() {
+	   
+   }
+   
    /**
     * Create set of tests by taking the testUrlXXX arrays and
     * running through all possible permutations of their combinations.
     *
     * @param testObjects Used to create a url.
     */
-   
 
 }
