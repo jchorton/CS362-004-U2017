@@ -130,6 +130,19 @@ public class UrlValidatorTest extends TestCase {
 	   }
    }
    
+   // Tests maximum length of URL (slow)
+   public void testValidURLLength() {
+	   UrlValidator urlVal = new UrlValidator(null, null, UrlValidator.ALLOW_ALL_SCHEMES);
+	   String urlString = "http://www.example.com/";
+	   for (int i = 0; i < 10000; i++) {
+		   urlString += "a"; // http://www.example.com/aaaaaa...
+		   if (urlVal.isValid(urlString) == false) {
+			   System.out.println("Max Length: " + urlString.length());
+			   i = 10000;
+		   }
+	   }   
+   }
+   
    // Checking an extremely simple query
    public void testUnitTest1() {
 	   checkURL("http://www.example.com/showNumber?query=123", true);
